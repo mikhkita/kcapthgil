@@ -223,6 +223,10 @@ input:-moz-placeholder {
 .b-header {
 	background-color: #1D2023;
 }
+	.b-header .b-block.other {
+		padding-top: 16px;
+   	 	padding-bottom: 17px;
+	}
 	.b-header .b-logo a{
 			font-size: 0;
 			display: block;
@@ -265,25 +269,24 @@ input:-moz-placeholder {
 				font-size: 12px;
 				letter-spacing: 0.8px;
 			}
-/*.b-header.fixed {
-    position:fixed;
-    top:0; left:0;
-    width:100%;
-}
-*/
 
 .b-main{
 	background-image: url("../i/main-back.jpg");
 	background-position: 50% 0%;
 }
-	.b-main .b-header {
-		background: none;
-		padding: 50px 53px 0px 53px;
-	}
+	
 	.b-main .b-block {
 		padding-top: 167px;
 		padding-bottom: 56px;
 	}
+	.b-main .b-header {
+		background: none;			
+	}
+	.b-main .b-header .b-block.main{
+		max-width: 100%;
+		padding: 50px 53px 0px 53px;
+	}
+	
 	.b-main .b-block h1{
 		font-size: 48px;
 		line-height: 58px;
@@ -838,10 +841,18 @@ input:-moz-placeholder {
 			color: rgba(144,144,144,0.6);
 		}
 
-.b-header .b-block {
-	padding-top: 16px;
-    padding-bottom: 17px;
+.b-header.fixed {
+    position:fixed;
+    top:0; 
+    left:0;
+    z-index: 100;
+    width: 100%;
+    background-color: #1D2023;
 }
+	.b-header.fixed .b-block {
+		max-width: 960px !important;
+		padding: 0 !important;
+	}
 .b-content {
 
 }
