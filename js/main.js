@@ -104,6 +104,30 @@ $(document).ready(function(){
         }
      
     });
+
+    $('#quantity').bind("change keyup input click", function() {
+        if (this.value.match(/[^0-9]/g)) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        }
+    });
+    $("#quantity").keyup(function(){
+        if($("#quantity").val()=='0') $("#quantity").val("1");
+    });
+    $("#quantity").focusout(function(){
+        if($("#quantity").val()=='') $("#quantity").val("1");
+    });
+    $(".up-arrow").click(function(){
+        quantity = $("#quantity").val()*1;
+        if(quantity<999) {
+            $("#quantity").val(quantity+1);
+        }
+    });
+    $(".down-arrow").click(function(){
+        quantity = $("#quantity").val()*1;
+        if(quantity>1) {
+            $("#quantity").val(quantity-1);
+        }
+    });
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
  //        zoom: 16,
