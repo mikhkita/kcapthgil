@@ -312,17 +312,17 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</ul>
 			</div>
 			<ul class="social">
-				<li><a href="#"><img src="i/fb.png"></a></li>
-				<li><a href="#"><img src="i/tw.png"></a></li>
-				<li><a href="#"><img src="i/g.png"></a></li>
-				<li><a href="#"><img src="i/yb.png"></a></li>
+				<li><a href="#" class="fb"></a></li>
+				<li><a href="#" class="tw"></a></li>
+				<li><a href="#" class="gp"></a></li>
+				<li><a href="#" class="yt"></a></li>
 			</ul>
 			<h5>Copyright © 2015 Lightpack</h5>
 		</div>
 	</div>
 
-<div style="display:none;">
-	<div id="b-popup-1">
+	<div style="display:none;">
+		<div id="b-popup-1">
 			<div class="for_all b-popup" >
 				<h3>Оставьте заявку</h3>
 				<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>

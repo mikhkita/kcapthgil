@@ -89,6 +89,7 @@ body {
 	position: relative;
 }
 body {
+	-webkit-text-size-adjust: none;
 	text-align: center;
 	min-width: 1000px;
 	font-family: 'Helvetica Neue';
@@ -836,10 +837,6 @@ input:-moz-placeholder {
 			.b-footer .b-block ul.social li{
 				margin-right: 15px;
 			}
-				.b-footer .b-block ul.social li a img{
-					width: 24px;
-					height: 24px;
-				}
 				.b-footer .b-block ul li a{
 					font-family: "PNR";
 					display: inline-block;
@@ -849,6 +846,37 @@ input:-moz-placeholder {
 					text-transform: uppercase;
 					letter-spacing: 0.4px;
 				}
+				.b-footer .b-block ul.social li a{
+					width: 24px;
+					height: 24px;
+					background-repeat: no-repeat;
+					background-image: url('../i/soc.png');
+					background-size: 48px 96px;
+				}
+					.b-footer .b-block ul.social li a.fb{
+						background-position: 0px 0px;
+					}
+						.b-footer .b-block ul.social li a.fb:hover{
+							background-position: -24px 0px;		
+						}
+					.b-footer .b-block ul.social li a.tw{
+						background-position: 0px -24px;
+					}
+						.b-footer .b-block ul.social li a.tw:hover{
+							background-position: -24px -24px;
+						}
+					.b-footer .b-block ul.social li a.gp{
+						background-position: 0px -48px;
+					}
+						.b-footer .b-block ul.social li a.gp:hover{
+							background-position: -24px -48px;
+						}
+					.b-footer .b-block ul.social li a.yt{
+						background-position: 0px -72px;
+					}
+						.b-footer .b-block ul.social li a.yt:hover{
+							background-position: -24px -72px;
+						}
 				.b-footer .b-block .bot-menu li a {
 					padding: 10px 0;
 				}
@@ -1256,6 +1284,7 @@ input:-moz-placeholder {
 }	*/
 
 .desc {
+	max-height: 10000px;
 	font-size: 24px !important;
 	line-height: 38px !important;
 }
@@ -1745,7 +1774,7 @@ input:-moz-placeholder {
 	}
 	
 	.b-about{
-		max-height: 20000px;
+		
 	}
 		.b-about ul li{
 			width: 690px;
