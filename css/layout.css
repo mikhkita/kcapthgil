@@ -1609,12 +1609,12 @@ input:-moz-placeholder {
 					width: 16px;
 					height: 8px;
 					top: 16px;
-					right: 16px;
+					right: 32px;
 					background-size: 16px 8px;
 				}
 				.b-item .inform .price .left .quantity .down-arrow {
 					background-image: url("../i/input-arrow-down.png");
-					top: 66px;
+					top: 67px;
 				}
 			.b-item .inform .price .left h5 {
 				font-size: 30px;
