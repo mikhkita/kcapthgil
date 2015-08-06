@@ -1482,6 +1482,7 @@ input:-moz-placeholder {
 			margin-top: 48px;
 			font-size: 28px;
 			line-height: 34px;
+			max-height: 10000px;
 		}
 
 .b-content {
@@ -1508,6 +1509,9 @@ input:-moz-placeholder {
 		.b-item .inform .desc {
 			font-size: 24px;
 			line-height: 38px;
+		}
+		.b-item .inform .params{
+			max-height: 10000px;
 		}
 
 		.b-item .inform .params h3 {
@@ -1637,6 +1641,7 @@ input:-moz-placeholder {
 
 	.b-item .inform .item-desc{
 		padding-top: 88px;
+		max-height: 10000px;
 	}	
 		.b-item .inform .item-desc p.desc {
 			margin-bottom: 45px;
