@@ -200,12 +200,12 @@ a.link {
 	margin-left: -500px;
 }
 
-input::-webkit-input-placeholder {
+::-webkit-input-placeholder {
 	font-family: "Helvetica Neue";
 	font-weight: normal;
 	color: rgba(255,255,255,0.7);
 }
-input:-moz-placeholder {
+:-moz-placeholder {
 	font-family: "Helvetica Neue";
 	font-weight: normal;
 	color: rgba(255,255,255,0.7);
@@ -1373,6 +1373,15 @@ input:-moz-placeholder {
 		color: #4E4E55;
     	border-bottom: 2px solid #525259;
     }
+.b-faq{
+
+}
+	.b-faq h2 {
+
+	}
+	.b-faq h3 {
+		
+	}
 
 
 
