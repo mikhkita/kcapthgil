@@ -26,24 +26,6 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 
-	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/meta.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-	<script type="text/javascript" src="js/jssor.js"></script>
-	<script type="text/javascript" src="js/jssor.slider.js"></script>
-	<script type="text/javascript" src="js/TweenMax.min.js"></script>
-	<script type="text/javascript" src="js/swipe.js"></script>
-	<script type="text/javascript" src="js/carousel.lite.js"></script>
-	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
-	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script type="text/javascript" src="js/KitProgress.js"></script>
-	<script type="text/javascript" src="js/KitAnimate.js"></script>
-	<script type="text/javascript" src="js/device.js"></script>
-	<script type="text/javascript" src="js/KitSend.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-
 </head>
 <body>
 	<!-- <ul class="ps-lines">
@@ -205,4 +187,13 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/device.js"></script>
+<script type="text/javascript" src="js/KitSend.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>

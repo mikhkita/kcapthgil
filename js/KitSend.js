@@ -81,7 +81,7 @@ $(document).ready(function(){
 			off = $(this).attr("data-offset")||0;
 		$("body, html").animate({
 			scrollTop : block.offset().top-off
-		},800);
+		},500);
 		return false;
 	});
 
