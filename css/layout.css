@@ -120,6 +120,19 @@ input.error,textarea.error{
 	font-size: 40px;
 	line-height: 49px;
 }
+.subtitle {
+	font-family: "PNL";
+	font-size: 24px;
+	line-height: 32px;
+	color: #4E4E55;
+}
+.topic {
+	color: #000;
+	font-family: "PNR";
+	font-size: 20px;
+	line-height: 24px;
+
+}
 .desc {
 	color: #7A7C8D;
 	font-size: 14px;
@@ -632,9 +645,8 @@ input:-moz-placeholder {
 					line-height: 24px;
 					color: #4E4E55;
 					margin-top: 15px;
-				
 					font-family: "PNR";
-}
+				}
 				.b-features .b-block p {
 					font-size: 14px;
 					line-height: 19px;
@@ -906,13 +918,8 @@ input:-moz-placeholder {
 	
 }
 	.b-item h4{
-		color: #000;
-		font-family: "PNR";
-		font-size: 20px;
-		line-height: 24px;
-	
 		margin-top: 27px;
-}
+	}
 	.b-item .images {
 			width: 340px;
 			margin-top: 8px;
@@ -971,15 +978,9 @@ input:-moz-placeholder {
 			font-weight: 300;
 		}
 		.b-item .inform .params h3 {
-			font-family: "PNL";
-			font-size: 24px;
 			margin-top: 18px;
-			line-height: 32px;
-			color: #4E4E55;
+		}
 
-		}
-		.b-item .inform .params h4 {	
-		}
 			.b-item .inform .params p.desc {
 		    	margin-top: 5px;	
 			}
@@ -1179,7 +1180,7 @@ input:-moz-placeholder {
 .b-about {
 	text-align: left;
 	color: #4E4E55;
-	padding-bottom: 131px;
+	padding-bottom: 133px;
 }
 	.b-about h2 {
 		margin-bottom: 18px;
@@ -1221,11 +1222,10 @@ input:-moz-placeholder {
 					width: 355px;
 				}
 				.b-about  ul li h3 {
-					font-family: "PNL";
-					font-size: 24px;
 					line-height: 29px;
-					margin-bottom: 19px;
-				}
+				
+					margin-bottom: 18px;
+}
 				.b-about  ul li p {
 					margin-bottom: 24px;
 					line-height: 24px;
