@@ -64,7 +64,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 				
 			</div>
@@ -86,7 +86,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		<div class="b-block clearfix">
 			<div>
 				<input type="text" placeholder="Enter your email address">
-				<a href="#" class="b-white-butt">subscribe</a>
+				<a href="#" class="b-white-butt butt">subscribe</a>
 			</div>
 		</div>
 	</div>
@@ -169,7 +169,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<div class="b b-fact">
 		<div class="b-block">
 			<p>Lightpack is a content-driven intellectual lighting system for your living room environment. It is designed for your displays (TV or PC monitor) and works perfectly with your PC or MAC.</p>
-			<a class="b-white-butt" href="#">buy it now</a>
+			<a class="b-white-butt butt" href="#">buy it now</a>
 		</div>
 	</div>
 	<div class="b b-features">
@@ -224,14 +224,14 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<div class="b b-fact b-fact-2">
 		<div class="b-block">
 			<p>With Lightpack, you will have a completely new experience of visual perception while watching movies, playing games, or working with Windows, Linux, and Mac OS X.</p>
-			<a class="b-white-butt" href="#">buy it now</a>
+			<a class="b-white-butt butt" href="#">buy it now</a>
 		</div>
 	</div>
 	<div class="b b-prismatic">
 		<div class="b-block">
 			<h2 class="title">Prismatik</h2>
 			<p class="desc">Prismatik is a cross-platform software for Lightpack controlling. There’s a desktop Prismatik that works in Windows, Linux and OS X. In addition to desktop version we also have a variety of plugins and connectors ready for service, which allow to control Lightpack from, for example, XBMC. There’s also an Android Prismatik, designed for media centers and HDMI-dongles based on Android 4 OS.</p>
-			<a class="b-blue-butt" href="#">downloads</a>
+			<a class="b-blue-butt butt" href="#">downloads</a>
 			<div class="windows">
 				<img class="l" src="i/prismatic-l.png">
 				<img class="c" src="i/prismatic-c.png">
@@ -296,7 +296,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		<div class="b-block clearfix">
 			<div>
 				<input type="text" placeholder="Enter your email address">
-				<a href="#" class="b-white-butt">subscribe</a>
+				<a href="#" class="b-white-butt butt">subscribe</a>
 			</div>
 		</div>
 	</div>

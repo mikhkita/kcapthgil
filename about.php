@@ -63,7 +63,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 				
 			</div>
@@ -85,7 +85,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 			</div>
 		</div>
@@ -146,14 +146,6 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 			</div>
 		</div>
 	</div>	
-	<div class="b-sub sub-2 hide">
-		<div class="b-block clearfix">
-			<div>
-				<input type="text" placeholder="Enter your email address">
-				<a href="#" class="b-white-butt">subscribe</a>
-			</div>
-		</div>
-	</div>
 	<div class="b-footer">
 		<div class="b-block">
 			<div>
@@ -166,10 +158,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</ul>
 			</div>
 			<ul class="social">
-				<li><a href="#"><img src="i/fb.png"></a></li>
-				<li><a href="#"><img src="i/tw.png"></a></li>
-				<li><a href="#"><img src="i/g.png"></a></li>
-				<li><a href="#"><img src="i/yb.png"></a></li>
+				<li><a href="#" class="fb"></a></li>
+				<li><a href="#" class="tw"></a></li>
+				<li><a href="#" class="gp"></a></li>
+				<li><a href="#" class="yt"></a></li>
 			</ul>
 			<h5>Copyright © 2015 Lightpack</h5>
 		</div>

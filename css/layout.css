@@ -210,40 +210,56 @@ input:-moz-placeholder {
 	font-weight: normal;
 	color: rgba(255,255,255,0.7);
 }
-.b-white-butt{
+.butt {
 	font-family: "PNS";
-	width: 140px;
-	padding: 16px 0 15px;
-	background-color: #fff;
-	box-sizing: border-box;
-	border-radius: 4px;
 	font-size: 14px;
+	line-height: 17px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px;
 	text-transform: uppercase;
 	display: inline-block;
 	cursor: pointer;
+}
+.b-white-butt{	
+	width: 140px;
+	padding: 16px 0 15px;
+	background-color: #fff;
 }
 	.b-white-butt:hover{
 		opacity: 0.6;
 	}
 .b-blue-butt {
-	font-family: "PNS";
 	width: 190px;
 	padding: 16px 0 17px;
 	background-color: #3137C1;
-	box-sizing: border-box;
-	border: none;
-	border-radius: 4px;
-	line-height: 17px;
 	letter-spacing: 1px;
-	font-size: 14px;
-	text-transform: uppercase;
-	display: inline-block;
 	color: #fff;
-	cursor: pointer;
 }
 	.b-blue-butt:hover{
 		background-color: #4B51D5;
 	}
+.b-download-butt {
+	padding: 10px 15px 9px 17px;
+    border: 2px solid #CDCDCD;
+	letter-spacing: 0.6px;
+	color: #090C27;
+}
+	.b-download-butt span {
+		font-family: "PNR";
+		color: #7A7C8D;
+		margin-left: 12px;
+		text-transform: none;
+	}
+	.b-download-butt:hover {
+		background-color: #3137C1;
+		color: #fff;
+		border: 2px solid #3137C1;
+	}
+		.b-download-butt:hover span {
+			color: #fff;
+		}
+
 
 .mobile {
 	display: none;
@@ -299,7 +315,7 @@ input:-moz-placeholder {
 			
 			.b-header .b-menu .b-white-butt {
 				width: 116px;
-				padding: 12px 0 13px;
+				padding: 12px 0 11px;
 				margin-left: 66px;
 				font-size: 12px;
 				letter-spacing: 0.8px;
@@ -370,7 +386,8 @@ input:-moz-placeholder {
 		}
 			.b-main .b-block .more a:after {
 				background-image: url("../i/more-arrow.png");
-				background-position: 50% 8px;
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
 				position: absolute;
 				content: "s";
 				font-size: 0px;
@@ -1235,9 +1252,8 @@ input:-moz-placeholder {
 				margin-top: 44px;
 				display: inline-block;
 				margin-right: 15px;
-			
 				vertical-align: top;
-}
+			}
 			.b-about  ul li:nth-child(2n) {
 				margin-right: 0;
 			}
@@ -1251,13 +1267,84 @@ input:-moz-placeholder {
 				}
 				.b-about  ul li h3 {
 					line-height: 29px;
-				
 					margin-bottom: 18px;
-}
+				}
 				.b-about  ul li p {
 					margin-bottom: 24px;
 					line-height: 24px;
 				}
+.b-downloads {
+	text-align: left;
+	padding-bottom: 100px;
+}
+	.b-downloads .downloads-text {
+		width: 650px;
+		margin-bottom: 28px;
+	}
+	.b-downloads .downloads-text h2 {
+		margin-bottom: 19px;
+	}
+	.b-downloads .platform {
+		border-bottom: 1px solid #DEDEDE;
+		padding-bottom: 26px;
+		padding-top: 23px;
+	}
+		.b-downloads .platform .win {
+		    margin-top: 7px;
+		    margin-right: 25px;
+		}
+		.b-downloads .platform .ubuntu {
+		    margin-top: 6px;
+		    margin-right: 17px;
+		}
+		.b-downloads .platform .mac {
+		    margin-top: 5px;
+		    margin-left: 7px;
+		    margin-right: 17px;
+		}
+		.b-downloads .platform .android {
+		    margin-left: 8px;
+		    margin-top: 3px;
+		    margin-right: 21px;
+		}
+		.b-downloads .platform ul {
+			width: 585px;
+		}
+			.b-downloads .platform ul li{
+				margin-top: 30px;
+			}
+			.b-downloads .platform ul li:first-child{
+				margin-top: 0;
+			}
+				.b-downloads .platform ul li h3{
+					line-height: 29px;
+					color: #000;
+					margin-bottom: 8px;
+				}
+				.b-downloads .platform ul li p{
+					color: #4E4E55;
+					font-weight: 300;
+				
+					margin-bottom: 18px;
+				}
+	.b-downloads .advanced{
+		margin-top: 38px;
+		position: relative;
+	
+		display: inline-block;
+}
+		.b-downloads .advanced:after {
+			background-image: url("../i/advanced-arrow.png");
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			position: absolute;
+			content: "s";
+			font-size: 0px;
+			width: 12px;
+			height: 8px;
+			top: 23px;
+			right: -31px;
+		}
 
 @media screen and (max-width: 767px){
 	body {

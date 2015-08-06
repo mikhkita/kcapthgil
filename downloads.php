@@ -63,7 +63,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 				
 			</div>
@@ -85,7 +85,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt">Buy it now</a>
+					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
 			</div>
 		</div>
@@ -93,18 +93,64 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<div class="b-content">
 		<div class="b-block">
 			<div class="b-downloads">
-				
+				<div class="downloads-text">
+					<h2 class="title">Downloads</h2>
+					<h3 class="subtitle">Thanks to peculiarities of its firmware and cross-platform software, Lightpack is compatible with all popular operating systems. So here is complete download list:</h3>
+				</div>
+				<div class="platform clearfix">
+					<img class="left win" src="i/win.png">
+					<ul class="left">
+						<li>	
+							<h3 class="subtitle">Prismatik 5.11.1 for Windows</h3>
+							<p class="desc">Capturing software for Lightpack. For Windows you need only download and install .exe passes thru familiar wizard steps. Notice, all user data will be stored in \Users\UserName\Prismatik.</p>
+							<a href="#" class="b-download-butt butt">download<span>16.6Mb</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="platform clearfix">
+					<img class="left ubuntu" src="i/ubuntu.png">
+					<ul class="left">
+						<li>	
+							<h3 class="subtitle">Prismatik 5.10.6 for Ubuntu 13.10 32-bit</h3>
+							<p class="desc">Capturing software for Lightpack. Deb-package for i386 architecture.</p>
+							<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+						</li>
+						<li>	
+							<h3 class="subtitle">Prismatik 5.10.6 for Ubuntu 13.10 32-bit</h3>
+							<p class="desc">Capturing software for Lightpack. Deb-package for i386 architecture.</p>
+							<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+						</li>
+						<li>	
+							<h3 class="subtitle">Prismatik 5.10.6 for Ubuntu 13.10 32-bit</h3>
+							<p class="desc">Capturing software for Lightpack. Deb-package for i386 architecture.</p>
+							<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="platform clearfix">
+					<img class="left mac" src="i/mac.png">
+					<ul class="left">
+						<li>	
+							<h3 class="subtitle">Prismatik 5.11.1 for OS X 10.6.8 and later</h3>
+							<p class="desc">Capturing software for Lightpack. DMG-package with all dependencies for Mac OS X versions 10.6.8 and later.</p>
+							<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="platform clearfix">
+					<img class="left android" src="i/android.png">
+					<ul class="left">
+						<li>	
+							<h3 class="subtitle">Prismatik 5.11.1 for OS X 10.6.8 and later</h3>
+							<p class="desc">Capturing software for Lightpack. DMG-package with all dependencies for Mac OS X versions 10.6.8 and later.</p>
+							<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+						</li>
+					</ul>
+				</div>
+				<h2 class="title advanced">Advanced (firmware update)</h2>
 			</div>
 		</div>
 	</div>	
-	<div class="b-sub sub-2 hide">
-		<div class="b-block clearfix">
-			<div>
-				<input type="text" placeholder="Enter your email address">
-				<a href="#" class="b-white-butt">subscribe</a>
-			</div>
-		</div>
-	</div>
 	<div class="b-footer">
 		<div class="b-block">
 			<div>
@@ -117,10 +163,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</ul>
 			</div>
 			<ul class="social">
-				<li><a href="#"><img src="i/fb.png"></a></li>
-				<li><a href="#"><img src="i/tw.png"></a></li>
-				<li><a href="#"><img src="i/g.png"></a></li>
-				<li><a href="#"><img src="i/yb.png"></a></li>
+				<li><a href="#" class="fb"></a></li>
+				<li><a href="#" class="tw"></a></li>
+				<li><a href="#" class="gp"></a></li>
+				<li><a href="#" class="yt"></a></li>
 			</ul>
 			<h5>Copyright © 2015 Lightpack</h5>
 		</div>

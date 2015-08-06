@@ -12,10 +12,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<meta name="keywords" content=''>
 	<meta name="description" content=''>
 
-	<meta name="viewport" content="width=1000, user-scalable=no">
+	<meta name="viewport" content="width=1000; user-scalable=no;">
 
 	<? if( $mobile ): ?>
-	<meta name="viewport" content="width=750, user-scalable=no">
+	<meta name="viewport" content="width=750; user-scalable=no;">
 	<? endif; ?>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -92,116 +92,8 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	</div>
 	<div class="b-content">
 		<div class="b-block">
-			<div class="b-item clearfix"> 
-				<div class="images left">
-					<div id="bg-img" style="background-image:url('i/item-bg.jpg');">
-						<a class="fancy-img-big" href="i/item-bg.jpg"></a>
-					</div>
-					<ul>
-						<li style="background-image:url('i/item-bg.jpg');">
-							<a class="fancy-img-thumb" href="i/item-bg.jpg"></a>
-							<a href="i/item-bg.jpg" class="fancy-img" rel="one"></a>
-						</li>
-						<li style="background-image:url('i/item-sm.jpg');">
-							<a class="fancy-img-thumb" href="i/item-sm.jpg"></a>
-							<a href="i/item-sm.jpg" class="fancy-img" rel="one"></a>
-						</li>
-						<li style="background-image:url('i/prismatic-c.png');">
-							<a class="fancy-img-thumb" href="i/prismatic-c.png"></a>
-							<a href="i/prismatic-c.png" class="fancy-img"  rel="one"></a>
-						</li>
-					</ul>
-				</div>
-				<div class="inform right">
-					<form id="buy" action="#">
-					<div class="params">
-						<h2 class="title">Lightpack</h2>
-						<h3 class="subtitle">Free worldwide delivery and 20USD off for a limited period of time</h3>
-						<h4 class="topic">Please select your display size:</h4>
-						<p class="desc">We recommend you to use multiple Lightpacks in case your TV is bigger than 52 inches.</p>
-						<ul id="disp-sel">
-							<li>
-								<label for="display-1">
-									<div class="tv">
-										<div class="first">
-											<div class="rect">
-												<h6>Up to</h6><span>50</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>up to 50 inches</h5>
-								</label>
-								<input id="display-1" type="radio" name="display" value="up to 50">
-							</li>
-							<li>
-								<label for="display-2">
-									<div class="tv">
-										<div class="second">
-											<div class="rect">
-												<span>50-65</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>50-65 inches</h5>
-								</label>
-								<input id="display-2" type="radio" name="display" value="50-65">									
-							</li>
-							<li class="active">
-								<label for="display-3">
-									<div class="tv">
-										<div class="third">
-											<div class="rect">
-												<span>65-86</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>65-86 inches</h5>
-								</label>
-								<input id="display-3" type="radio" name="display" value="65-86" checked>
-							</li>
-						</ul>
-					</div>	
-					<div class="price clearfix">
-						<div class="left">
-							<label for="quantity">Quantity:</label>
-							<div class="b quantity">
-								<input id="quantity" type="text" value="3" maxlength="3">
-								<span class="arrow up-arrow" onselectstart="return false;"></span>
-								<span class="arrow down-arrow" onselectstart="return false;"></span>
-							</div>
-						</div>
-						<div class="left">
-							<h5>$109.00</h5>
-							<h3>$89.00</h3>
-						</div>
-						<div class="right">
-							<a href="#" class="b-blue-butt butt" onclick='$("#buy").submit(); return false;'>buy it now</a>
-						</div>
-					</div>
-					</form>
-					<div class="item-desc">
-						<p class="desc">Shipping out from Los Angeles and Hong Kong next day</p>
-						<p class="desc">Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
-						<p class="desc">For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
-						<p class="desc">Customs/export fees may vary and are not included into the shipping price.</p>
-						<h4 class="topic">Box content:</h4>
-						<ul>
-							<li class="desc">Lightpack main unit</li>
-							<li class="desc">10 LED-modules with 70 cm cable length</li>
-							<li class="desc">Micro USB cable</li>
-							<li class="desc">AC adaptor with interchangeable plug for US, EU and UK socket (AU customers will require a converter)</li>
-							<li class="desc">Mount accessories</li>
-							<li class="desc">Quick Install Guide and Warranty term sheet</li>
-						</ul>
-						<div class="item-links">
-							<p class="desc">Lightpack requires a connection to computer or Android device with Prismatik software installed. Prismatik can be obtained at <a class="link" href="#">http://lightpack.tv/downloads</a></p>
-							<p class="desc">Prismatik is compatible with Windows, Mac OS X, Linux, Android, and works with many Android-based media centers. See <a class="link" href="#">FAQ</a> for details and software limitations.</p>
-						</div>
-					</div>
-				</div>
+			<div class="b-downloads">
+				
 			</div>
 		</div>
 	</div>	
@@ -209,7 +101,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		<div class="b-block clearfix">
 			<div>
 				<input type="text" placeholder="Enter your email address">
-				<a href="#" class="b-white-butt butt">subscribe</a>
+				<a href="#" class="b-white-butt">subscribe</a>
 			</div>
 		</div>
 	</div>
@@ -234,8 +126,8 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		</div>
 	</div>
 
-	<div style="display:none;">
-		<div id="b-popup-1">
+<div style="display:none;">
+	<div id="b-popup-1">
 			<div class="for_all b-popup" >
 				<h3>Оставьте заявку</h3>
 				<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
