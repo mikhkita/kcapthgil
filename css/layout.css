@@ -98,6 +98,7 @@ body {
 }
 a{
 	text-decoration: none;
+	color: #090C27;
 	
 }
 li{
@@ -970,9 +971,7 @@ input:-moz-placeholder {
 			color: #4E4E55;
 
 		}
-		.b-item .inform .params h4 {
-	    	margin-top: 25px;	
-	    	color: #000;
+		.b-item .inform .params h4 {	
 		}
 			.b-item .inform .params p.desc {
 		    	margin-top: 5px;	
@@ -991,7 +990,8 @@ input:-moz-placeholder {
 					text-align: center;
 					border-radius: 4px;
 					cursor: pointer;
-				}
+				
+}
 				.b-item .inform .params ul li label {
 					display: block;
 					padding: 22px 22px 15px;
@@ -1116,20 +1116,21 @@ input:-moz-placeholder {
 					background-image: url("../i/input-arrow-up.png");
 					background-position: 50% 50%;
 					background-repeat: no-repeat;
+					background-size: 8px 4px;
+					box-sizing: border-box;
 					position: absolute;
 					padding: 5px;
 					content: "s";
 					font-size: 0px;
 					width: 8px;
 					height: 4px;
-					top: 6px;
-					right: 8px;
+					top: 8px;
+					right: 12px;
 					cursor: pointer;
 				}
 				.b-item .inform .price .left .quantity .down-arrow {
 					background-image: url("../i/input-arrow-down.png");
-					top: 30px;
-					right: 8px;
+					top: 32px;
 				}
 			.b-item .inform .price .left h5 {
 				text-decoration: line-through;
@@ -1144,6 +1145,9 @@ input:-moz-placeholder {
 				font-family: "PNL";
 				font-size: 40px;
 				line-height: 49px;
+			}
+			.b-item .inform .price .right {
+				text-align: center;
 			}
 			.b-item .inform .price .right .b-blue-butt {
 				width: 170px;
@@ -1181,7 +1185,7 @@ input:-moz-placeholder {
 		min-width: 750px;
 	}
 
-	.b-main .b-block .more,.b-difference .b-slider,.b-difference .switch,.b-prismatic,.b-news,.b-quote,.b-twitter,.b-header .b-menu {
+	.b-main .b-block .more,.b-difference .b-slider,.b-difference .switch,.b-prismatic,.b-news,.b-quote,.b-twitter,.b-header .b-menu,.b-item .images, .item-links {
 			display: none;
 		}
 	.mobile {
@@ -1485,4 +1489,204 @@ input:-moz-placeholder {
 			line-height: 34px;
 		}
 
+.b-content {
+
+}
+	.b-content .b-block{
+		padding-top: 67px;
+		max-width: 690px;
+	}	
+.b-item {
+    padding-bottom: 74px;
+	
+}
+	.b-item h4{
+		color: #000;
+		font-family: "PNR";
+		font-size: 36px;
+		line-height: 37px;
+		margin-top: 70px;
+}
+	
+	.b-item .inform {
+		width: 100%;
+		float: none !important;
+	}
+		.b-item .inform .desc {
+			font-weight: 300;
+			font-size: 24px;
+			line-height: 38px;
+		}
+
+		.b-item .inform .params h3 {
+			font-family: "PNL";
+			font-size: 36px;
+			margin-top: 27px;
+			line-height: 46px;
+
+		
+			padding-right: 100px;
+}
+		.b-item .inform .params h4 {
+			margin-top: 37px;
+		}
+			.b-item .inform .params p.desc {
+		    	margin-top: 20px;	
+			
+		    	padding-right: 100px;
+}
+			.b-item .inform .params ul {
+    			margin-top: 18px;
+				
+			}
+				.b-item .inform .params ul li{
+					margin-top: 19px;
+					margin-right: 16px;
+					width: 216px;
+					display: inline-block;
+				}
+				.b-item .inform .params ul li label {
+					display: block;
+					padding: 29px 30px 21px;
+					cursor: pointer;
+				}
+
+						.b-item .inform .params ul li .tv > div {
+							height: 92px;
+						}
+
+						.b-item .inform .params ul li .rect span{
+							font-size: 28px;
+							line-height: 35px;
+						}
+					.b-item .inform .params ul li .line{
+						width: 72px;
+						height: 5px;
+						margin-top: 5px;
+						margin-left: 40px;
+					}
+					.b-item .inform .params ul li h5{
+						font-size: 14px;
+						line-height: 16px;
+						font-weight: 300;
+						margin-top: 27px;
+					}
+
+					.b-item .inform .params ul li .first .rect{
+						width: 100px;
+						padding-top: 8px;
+					}
+						.b-item .inform .params ul li .first .rect h6{
+						    font-size: 14px;        
+						    line-height: 4px;        
+						}
+						.b-item .inform .params ul li .first .rect span{
+						    font-size: 36px;        
+						    line-height: 44px;
+						}
+
+					.b-item .inform .params ul li .second .rect{
+						width: 108px;
+						padding-top: 19px;
+						padding-bottom: 19px;
+					}
+					.b-item .inform .params ul li .third .rect{
+						width: 125px;
+						padding-top: 22px;
+						padding-bottom: 21px;
+					}
+	.b-item .inform .price {
+		margin-top: 67px;
+		padding-bottom: 0px;
+		border-bottom: none;
+	}	
+		.b-item .inform .price .left {
+			margin-right: 54px;
+			position: relative;
+			
+		}
+			.b-item .inform .price .left label {
+				display: block;
+				font-family: "PNR";
+				font-size: 20px;
+				line-height: 24px;
+
+			}			
+			.b-item .inform .price .left input {
+				width: 389px;
+				padding: 24px 31px 23px;
+    			
+				font-size: 36px;
+				line-height: 39px;
+				margin-top: 20px;
+			}	
+				.b-item .inform .price .left .quantity .arrow {
+					padding: 5px;
+					width: 16px;
+					height: 8px;
+					top: 13px;
+					right: 16px;
+					cursor: pointer;
+				}
+				.b-item .inform .price .left .quantity .down-arrow {
+					background-image: url("../i/input-arrow-down.png");
+					top: 64px;
+				}
+			.b-item .inform .price .left h5 {
+				text-decoration: line-through;
+				font-family: "PNL";
+				font-size: 30px;
+				line-height: 37px;
+				color: #7A7C8D;
+			
+				margin-top: 37px;
+			}
+			.b-item .inform .price .left h3 {
+				font-family: "PNL";
+				font-size: 60px;
+				line-height: 73px;
+			}
+			.b-item .inform .price .right {
+				width: 100%;
+				text-align: center;
+			}
+			.b-item .inform .price .right .b-blue-butt {
+				width: 340px;
+				margin-top: 67px;
+				font-size: 28px;
+				line-height: 34px;
+				letter-spacing: 2px;
+				padding: 33px 0 33px;
+				border-radius: 8px;
+}
+
+	.b-item .inform .item-desc{
+		padding-top: 88px;
+	}	
+		.b-item .inform .item-desc p.desc {
+			margin-bottom: 24px;
+		
+		
+}	
+		.b-item .inform .item-desc ul {
+		    margin-top: 34px;
+		    margin-left: 15px;
+		    margin-bottom: 0;
+		}
+			.b-item .inform .item-desc ul li {
+				list-style: disc;
+				padding-left: 11px;
+				margin-bottom: 0;
+				line-height: 53px;
+			}
+			.b-item .inform .item-desc a {
+				text-decoration: underline;
+				color: #3137C1;
+			}
+				.b-item .inform .item-desc a:hover {
+					text-decoration: none;
+				}
+	.sub-2.hide {
+		display: block;
+	}
 } 
