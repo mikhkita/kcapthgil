@@ -116,8 +116,8 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<form id="buy" action="#">
 					<div class="params">
 						<h2 class="title">Lightpack</h2>
-						<h3>Free worldwide delivery and 20USD off for a limited period of time</h3>
-						<h4>Please select your display size:</h4>
+						<h3 class="subtitle">Free worldwide delivery and 20USD off for a limited period of time</h3>
+						<h4 class="topic">Please select your display size:</h4>
 						<p class="desc">We recommend you to use multiple Lightpacks in case your TV is bigger than 52 inches.</p>
 						<ul id="disp-sel">
 							<li>
@@ -187,7 +187,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<p class="desc">Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
 						<p class="desc">For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
 						<p class="desc">Customs/export fees may vary and are not included into the shipping price.</p>
-						<h4>Box content:</h4>
+						<h4 class="topic">Box content:</h4>
 						<ul>
 							<li class="desc">Lightpack main unit</li>
 							<li class="desc">10 LED-modules with 70 cm cable length</li>

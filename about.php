@@ -106,7 +106,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<li class="clearfix">
 						<img class="left" src="i/face-1.jpg">
 						<div class="right">
-							<h3>Mit Gorilovsky</h3>
+							<h3 class="subtitle">Mit Gorilovsky</h3>
 							<p class="desc">Product & solutions innovator with experience in mobile telecoms industry (Yota, Megafon, Create Studios) and econophysics services with current focus on enabling complex finance technologies with smile human interfaces.</p>
 							<p class="desc">Mit holds a Magister’s degree in IT, Physics, Mathematics from St. Petersburg National Research University of Information Technologies, Mechanics and Optics.</p>
 						</div>
@@ -114,7 +114,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<li class="clearfix">
 						<img class="left" src="i/face-2.jpg">
 						<div class="right">
-							<h3>Olga Perova</h3>
+							<h3 class="subtitle">Olga Perova</h3>
 							<p class="desc">An experienced executive with more than 6 years in operations, M&A, business and strategy development with Russian leading internet companies (Yandex, Boutique.ru, SUP) and previously in Severstal (Russian steel producer).</p>
 							<p class="desc">She also has a strong financial background acting as CFO at Cafemax and hasa Magister's degree in Finance of Plekhanov Russian University of Economics.</p>
 						</div>
@@ -122,7 +122,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<li class="clearfix">
 						<img class="left" src="i/face-3.jpg">
 						<div class="right">
-							<h3>Mike Sannikov</h3>
+							<h3 class="subtitle">Mike Sannikov</h3>
 							<p class="desc">Mike is a product designer who has developed the Russian open-hardware projects such as Pixelkit, Glitchy-sequencer, and Lo-res pixelator. Mike is an author of the Lightpack who focused on OSHW. He has strong engineering skills, product vision and he knows how to make things looks nice and easy. He started the Lightpack project in 2011 and has been working on it up to now.</p>
 							<p class="desc">Mike holds a degree Automatic information systems in Kalashnikov ISTU of Izhevsk.</p>
 						</div>
@@ -130,14 +130,14 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<li class="clearfix">
 						<img class="left" src="i/face-1.jpg">
 						<div class="right">
-							<h3>Timur Sattarov</h3>
+							<h3 class="subtitle">Timur Sattarov</h3>
 							<p class="desc">Software engineer with more than 4 years of experience in Java and nearly 3 years of experience in C++, open-source enthusiast. Despite of a light obsession of IT, Timur interesting in natural science as well.</p>
 						</div>
 					</li>
 					<li class="clearfix">
 						<img class="left" src="i/face-4.jpg">
 						<div class="right">
-							<h3>Dmitry Tsoy</h3>
+							<h3 class="subtitle">Dmitry Tsoy</h3>
 							<p class="desc">An experienced supply chain manager and logistics at YotaPhone, ArtLebedev, Meridian Telecom and Sportmaster.</p>
 						</div>
 					</li>
