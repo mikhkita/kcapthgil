@@ -1256,6 +1256,11 @@ input:-moz-placeholder {
 	font-weight: 400;    
 }	*/
 
+.desc {
+	font-size: 24px !important;
+	line-height: 38px !important;
+}
+
 .menu-mobile {
 	background-image: url("../i/menu-m.png");
 	background-position: 50% 50%;
@@ -1587,10 +1592,6 @@ input:-moz-placeholder {
 		width: 100%;
 		float: none !important;
 	}
-		.b-item .inform .desc {
-			font-size: 24px;
-			line-height: 38px;
-		}
 		.b-item .inform .params{
 			max-height: 10000px;
 		}
@@ -1739,4 +1740,23 @@ input:-moz-placeholder {
 	.sub-2.hide {
 		display: block;
 	}
+
+	.b-about .about-project, .b-about .about-who {
+	    width: 690px;
+	}
+	
+	.b-about{
+		max-height: 20000px;
+	}
+		.b-about ul li{
+			width: 690px;
+		}
+			.b-about ul li h3 {
+			    font-family: "PNR";
+			    font-size: 36px;
+			}
+			.b-about ul li .right {
+			    width: 570px;
+			    max-height: 10000px;
+			}
 } 
