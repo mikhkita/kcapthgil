@@ -61,8 +61,6 @@ $(document).ready(function(){
         $(".scroll-menu .b-menu").slideUp();
         return false;
     });
-
-
         
     $(".fancy-img").fancybox({
         padding : 0,
@@ -139,6 +137,18 @@ $(document).ready(function(){
             $("#quantity").val(quantity-1);
         }
     });
+
+
+    var icons = {
+        header: "ui-icon-circle-arrow-e",
+        activeHeader: "ui-icon-circle-arrow-s"
+    };
+    $( ".accordion" ).accordion({
+      // icons: icons
+      collapsible: true
+    });
+
+
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
  //        zoom: 16,

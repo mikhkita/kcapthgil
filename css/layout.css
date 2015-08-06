@@ -1330,9 +1330,8 @@ input:-moz-placeholder {
 	.b-downloads .advanced{
 		margin-top: 38px;
 		position: relative;
-	
 		display: inline-block;
-}
+	}
 		.b-downloads .advanced:after {
 			background-image: url("../i/advanced-arrow.png");
 			background-position: 50% 50%;
@@ -1345,6 +1344,38 @@ input:-moz-placeholder {
 			top: 23px;
 			right: -31px;
 		}
+.b-content .b-block.faq {
+	padding-top: 54px;
+}
+.b-content .b-block.faq .faq-menu {
+	margin-bottom: 40px;
+}
+	.b-content .b-block.faq .faq-menu li{
+		float: left;
+	
+		margin-right: 36px;
+}
+	.b-content .b-block.faq .faq-menu li a {
+		text-transform: uppercase;
+	    font-size: 14px;
+	    color: #88898E;
+	    line-height: 17px;
+	    font-family: "PNS";    
+		padding: 5px 0;
+	    display: block;
+	}
+	.b-content .b-block.faq .faq-menu li.active a {
+		color: #4E4E55;	
+		border-bottom: 2px solid #525259;
+    	cursor: default;
+    }
+	.b-content .b-block.faq .faq-menu li a:hover {
+		color: #4E4E55;
+    	border-bottom: 2px solid #525259;
+    }
+
+
+
 
 @media screen and (max-width: 767px){
 	body {
