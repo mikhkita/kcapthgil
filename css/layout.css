@@ -126,6 +126,14 @@ input.error,textarea.error{
 	line-height: 24px;
 	font-weight: 400;    
 }
+a.link {
+	text-decoration: underline;
+	color: #3137C1;
+}
+	a.link:hover {
+		text-decoration: none;
+	}
+
 .hide {
 	display: none;
 }
@@ -1168,14 +1176,27 @@ input:-moz-placeholder {
 				margin-bottom: 8px;
 				line-height: 22px;
 			}
-			.b-item .inform .item-desc a {
-				text-decoration: underline;
-				color: #3137C1;
-			}
-				.b-item .inform .item-desc a:hover {
-					text-decoration: none;
-				}
+.b-about {
+	text-align: left;
+}
+	.b-about h2 {
+		margin-bottom: 22px;
+	}
+	.b-about p {
+		margin-bottom: 40px;
+	}
+	.b-about .about-project {
+		width: 715px;
+	}
+	.b-about .about-who {
+		margin-top: 16px;
+	}
+		.b-about .about-who ul {
 
+		}
+			.b-about .about-who ul li{
+				margin-top: 40px;
+			}
 
 @media screen and (max-width: 767px){
 	body {

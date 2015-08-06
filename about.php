@@ -92,115 +92,23 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	</div>
 	<div class="b-content">
 		<div class="b-block">
-			<div class="b-item clearfix"> 
-				<div class="images left">
-					<div id="bg-img" style="background-image:url('i/item-bg.jpg');">
-						<a class="fancy-img-big" href="i/item-bg.jpg"></a>
-					</div>
-					<ul>
-						<li style="background-image:url('i/item-bg.jpg');">
-							<a class="fancy-img-thumb" href="i/item-bg.jpg"></a>
-							<a href="i/item-bg.jpg" class="fancy-img" rel="one"></a>
-						</li>
-						<li style="background-image:url('i/item-sm.jpg');">
-							<a class="fancy-img-thumb" href="i/item-sm.jpg"></a>
-							<a href="i/item-sm.jpg" class="fancy-img" rel="one"></a>
-						</li>
-						<li style="background-image:url('i/prismatic-c.png');">
-							<a class="fancy-img-thumb" href="i/prismatic-c.png"></a>
-							<a href="i/prismatic-c.png" class="fancy-img"  rel="one"></a>
+			<div class="b-about clearfix"> 
+				<div class="about-project">
+					<h2 class="title">Lightpack project</h2>
+					<p class="desc">Since 2011 the project was developed by a small team of enthusiasts without any company and funding, investing their own money and till now we believe in it and continue working on it. During 2012 we’ve created tons of prototypes with different functionality and level of readiness. In 2012 Russian users could already buy a fully functioning version of Lightpack which however was not yet ready for mass-market. We run Kickstarter campaign in May 2013 to croudfound device mass-production start. Despite extremely ambitious target goal of $261,962 we overfund it till 191% and finish Lightpack Kickstarter campaign with $500,784.</p>
+					<p class="desc">We’ve already sold over 1 000 batch-production optimized devices in Russia. Over 4 000 were assembled by the users themselves (as all firmware layouts and software source codes were open). In early 2013 we finalized the design of the device and start mass production at the end of the year which would also include product support, certification and etc.</p>
+				</div>
+				<div class="about-who">
+					<h2 class="title">Who we are</h2>
+					<p class="desc">Woodenshark is a small engineering team building small gadgets & online services scattered across the globe from New York to Shenzhen. We believe that distance is not an obstacle for any kind of relationship, and collaborative work. Results-focus philosophy and various Internet-based tools help us stay in touch and keep our product developing processes going. You can find more about our team and projects on woodenshark.com .</p>
+					<ul class="clearfix">
+						<li class="clearfix">
+							<img class="left" src="">
+							<h3>Mit Gorilovsky</h3>
+							<p class="desc">Product & solutions innovator with experience in mobile telecoms industry (Yota, Megafon, Create Studios) and econophysics services with current focus on enabling complex finance technologies with smile human interfaces.</p>
+							<p class="desc">Mit holds a Magister’s degree in IT, Physics, Mathematics from St. Petersburg National Research University of Information Technologies, Mechanics and Optics.</p>
 						</li>
 					</ul>
-				</div>
-				<div class="inform right">
-					<form id="buy" action="#">
-					<div class="params">
-						<h2 class="title">Lightpack</h2>
-						<h3>Free worldwide delivery and 20USD off for a limited period of time</h3>
-						<h4>Please select your display size:</h4>
-						<p class="desc">We recommend you to use multiple Lightpacks in case your TV is bigger than 52 inches.</p>
-						<ul id="disp-sel">
-							<li>
-								<label for="display-1">
-									<div class="tv">
-										<div class="first">
-											<div class="rect">
-												<h6>Up to</h6><span>50</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>up to 50 inches</h5>
-								</label>
-								<input id="display-1" type="radio" name="display" value="up to 50">
-							</li>
-							<li>
-								<label for="display-2">
-									<div class="tv">
-										<div class="second">
-											<div class="rect">
-												<span>50-65</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>50-65 inches</h5>
-								</label>
-								<input id="display-2" type="radio" name="display" value="50-65">									
-							</li>
-							<li class="active">
-								<label for="display-3">
-									<div class="tv">
-										<div class="third">
-											<div class="rect">
-												<span>65-86</span>
-											</div>
-											<div class="line"></div>
-										</div>
-									</div>
-									<h5>65-86 inches</h5>
-								</label>
-								<input id="display-3" type="radio" name="display" value="65-86" checked>
-							</li>
-						</ul>
-					</div>	
-					<div class="price clearfix">
-						<div class="left">
-							<label for="quantity">Quantity:</label>
-							<div class="b quantity">
-								<input id="quantity" type="text" value="3" maxlength="3">
-								<span class="arrow up-arrow" onselectstart="return false;"></span>
-								<span class="arrow down-arrow" onselectstart="return false;"></span>
-							</div>
-						</div>
-						<div class="left">
-							<h5>$109.00</h5>
-							<h3>$89.00</h3>
-						</div>
-						<div class="right">
-							<a href="#" class="b-blue-butt" onclick='$("#buy").submit(); return false;'>buy it now</a>
-						</div>
-					</div>
-					</form>
-					<div class="item-desc">
-						<p class="desc">Shipping out from Los Angeles and Hong Kong next day</p>
-						<p class="desc">Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
-						<p class="desc">For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
-						<p class="desc">Customs/export fees may vary and are not included into the shipping price.</p>
-						<h4>Box content:</h4>
-						<ul>
-							<li class="desc">Lightpack main unit</li>
-							<li class="desc">10 LED-modules with 70 cm cable length</li>
-							<li class="desc">Micro USB cable</li>
-							<li class="desc">AC adaptor with interchangeable plug for US, EU and UK socket (AU customers will require a converter)</li>
-							<li class="desc">Mount accessories</li>
-							<li class="desc">Quick Install Guide and Warranty term sheet</li>
-						</ul>
-						<div class="item-links">
-							<p class="desc">Lightpack requires a connection to computer or Android device with Prismatik software installed. Prismatik can be obtained at <a class="link" href="#">http://lightpack.tv/downloads</a></p>
-							<p class="desc">Prismatik is compatible with Windows, Mac OS X, Linux, Android, and works with many Android-based media centers. See <a class="link" href="#">FAQ</a> for details and software limitations.</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
