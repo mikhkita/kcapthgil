@@ -1115,20 +1115,19 @@ input:-moz-placeholder {
 					background-position: 50% 50%;
 					background-repeat: no-repeat;
 					background-size: 8px 4px;
-					box-sizing: border-box;
 					position: absolute;
 					padding: 5px;
 					content: "s";
 					font-size: 0px;
 					width: 8px;
 					height: 4px;
-					top: 8px;
-					right: 12px;
+					top: 6px;
+					right: 8px;
 					cursor: pointer;
 				}
 				.b-item .inform .price .left .quantity .down-arrow {
 					background-image: url("../i/input-arrow-down.png");
-					top: 32px;
+					top: 30px;
 				}
 			.b-item .inform .price .left h5 {
 				text-decoration: line-through;
@@ -1605,13 +1604,13 @@ input:-moz-placeholder {
 					padding: 5px;
 					width: 16px;
 					height: 8px;
-					top: 16px;
-					right: 32px;
+					top: 12px;
+					right: 27px;
 					background-size: 16px 8px;
 				}
 				.b-item .inform .price .left .quantity .down-arrow {
 					background-image: url("../i/input-arrow-down.png");
-					top: 67px;
+					top: 63px;
 				}
 			.b-item .inform .price .left h5 {
 				font-size: 30px;
