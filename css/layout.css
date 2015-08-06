@@ -257,7 +257,7 @@ input:-moz-placeholder {
 
 		}
 			.b-header .b-menu ul li {
-				margin-right: 42px;
+				margin-right: 41px;
 				float: left;
 			}
 			.b-header .b-menu ul li:last-child {
@@ -828,7 +828,7 @@ input:-moz-placeholder {
 				font-size: 0;
 			}
 			.b-footer .b-block ul.bot-menu li{
-				margin-right: 44px;
+				margin-right: 43px;
 			}
 		.b-footer .b-block .social{
 			margin-top: 30px;
@@ -1178,25 +1178,59 @@ input:-moz-placeholder {
 			}
 .b-about {
 	text-align: left;
+	color: #4E4E55;
+	padding-bottom: 131px;
 }
 	.b-about h2 {
-		margin-bottom: 22px;
+		margin-bottom: 18px;
+		color: #000;
 	}
-	.b-about p {
+	.b-about p{
 		margin-bottom: 40px;
+		color: #4E4E55;
+		font-weight: 300;
+		line-height: 28px;
 	}
-	.b-about .about-project {
+
+	.b-about .about-project,.b-about .about-who {
 		width: 715px;
 	}
-	.b-about .about-who {
-		margin-top: 16px;
-	}
-		.b-about .about-who ul {
 
+	.b-about .about-who {
+		margin-top: 62px;
+	}
+		.b-about  ul {
+			
 		}
-			.b-about .about-who ul li{
-				margin-top: 40px;
+			.b-about  ul li{
+				width: 469px;
+				margin-top: 44px;
+				display: inline-block;
+				margin-right: 15px;
+			
+				vertical-align: top;
+}
+			.b-about  ul li:nth-child(2n) {
+				margin-right: 0;
 			}
+				.b-about  ul li img {
+					width: 100px;
+					height: 100px;
+					border-radius: 8px;
+				}
+				.b-about  ul li .right {
+					width: 355px;
+				}
+				.b-about  ul li h3 {
+					font-family: "PNL";
+					font-size: 24px;
+					line-height: 29px;
+					margin-bottom: 19px;
+				}
+				.b-about  ul li p {
+					margin-bottom: 24px;
+					line-height: 24px;
+				}
 
 @media screen and (max-width: 767px){
 	body {

@@ -92,57 +92,8 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	</div>
 	<div class="b-content">
 		<div class="b-block">
-			<div class="b-about clearfix"> 
-				<div class="about-project">
-					<h2 class="title">Lightpack project</h2>
-					<p class="desc">Since 2011 the project was developed by a small team of enthusiasts without any company and funding, investing their own money and till now we believe in it and continue working on it. During 2012 we’ve created tons of prototypes with different functionality and level of readiness. In 2012 Russian users could already buy a fully functioning version of Lightpack which however was not yet ready for mass-market. We run Kickstarter campaign in May 2013 to croudfound device mass-production start. Despite extremely ambitious target goal of $261,962 we overfund it till 191% and finish Lightpack <a class="link" href="#">Kickstarter campaign</a> with $500,784.</p>
-					<p class="desc">We’ve already sold over 1 000 batch-production optimized devices in Russia. Over 4 000 were assembled by the users themselves (as all firmware layouts and software source codes were open). In early 2013 we finalized the design of the device and start mass production at the end of the year which would also include product support, certification and etc.</p>
-				</div>
-				<div class="about-who">
-					<h2 class="title">Who we are</h2>
-					<p class="desc">Woodenshark is a small engineering team building small gadgets & online services scattered across the globe from New York to Shenzhen. We believe that distance is not an obstacle for any kind of relationship, and collaborative work. Results-focus philosophy and various Internet-based tools help us stay in touch and keep our product developing processes going. You can find more about our team and projects on <a class="link" href="#">woodenshark.com</a> .</p>
-				</div>
-				<ul>
-					<li class="clearfix">
-						<img class="left" src="i/face-1.jpg">
-						<div class="right">
-							<h3>Mit Gorilovsky</h3>
-							<p class="desc">Product & solutions innovator with experience in mobile telecoms industry (Yota, Megafon, Create Studios) and econophysics services with current focus on enabling complex finance technologies with smile human interfaces.</p>
-							<p class="desc">Mit holds a Magister’s degree in IT, Physics, Mathematics from St. Petersburg National Research University of Information Technologies, Mechanics and Optics.</p>
-						</div>
-					</li>
-					<li class="clearfix">
-						<img class="left" src="i/face-2.jpg">
-						<div class="right">
-							<h3>Olga Perova</h3>
-							<p class="desc">An experienced executive with more than 6 years in operations, M&A, business and strategy development with Russian leading internet companies (Yandex, Boutique.ru, SUP) and previously in Severstal (Russian steel producer).</p>
-							<p class="desc">She also has a strong financial background acting as CFO at Cafemax and hasa Magister's degree in Finance of Plekhanov Russian University of Economics.</p>
-						</div>
-					</li>
-					<li class="clearfix">
-						<img class="left" src="i/face-3.jpg">
-						<div class="right">
-							<h3>Mike Sannikov</h3>
-							<p class="desc">Mike is a product designer who has developed the Russian open-hardware projects such as Pixelkit, Glitchy-sequencer, and Lo-res pixelator. Mike is an author of the Lightpack who focused on OSHW. He has strong engineering skills, product vision and he knows how to make things looks nice and easy. He started the Lightpack project in 2011 and has been working on it up to now.</p>
-							<p class="desc">Mike holds a degree Automatic information systems in Kalashnikov ISTU of Izhevsk.</p>
-						</div>
-					</li>
-					<li class="clearfix">
-						<img class="left" src="i/face-1.jpg">
-						<div class="right">
-							<h3>Timur Sattarov</h3>
-							<p class="desc">Software engineer with more than 4 years of experience in Java and nearly 3 years of experience in C++, open-source enthusiast. Despite of a light obsession of IT, Timur interesting in natural science as well.</p>
-						</div>
-					</li>
-					<li class="clearfix">
-						<img class="left" src="i/face-4.jpg">
-						<div class="right">
-							<h3>Dmitry Tsoy</h3>
-							<p class="desc">An experienced supply chain manager and logistics at YotaPhone, ArtLebedev, Meridian Telecom and Sportmaster.</p>
-						</div>
-					</li>
-
-				</ul>
+			<div class="b-downloads">
+				
 			</div>
 		</div>
 	</div>	
