@@ -22,6 +22,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
 	<link rel="stylesheet" href="css/slick.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
@@ -37,6 +38,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/KitProgress.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
@@ -91,9 +93,41 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		</div>
 	</div>
 	<div class="b-content">
-		<div class="b-block">
-			<div class="b-downloads">
-				
+		<div class="b-block faq">
+			<ul class="faq-menu clearfix">
+				<li class="active"><a href="#">FAQ</a></li>
+				<li><a href="#">DOCS</a></li>
+				<li><a href="#">MANUAL</a></li>
+				<li><a href="#">WARRANTY</a></li>
+				<li><a href="#">RETURN POLICY</a></li>
+				<li><a href="#">PRIVACY POLICY</a></li>
+			</ul>
+			<div class="b-faq">
+				<h2 class="title">Frequently Asked Questions</h2>
+				<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</h3>
+				<div class="accordion">
+					<h3>Section 1</h3>
+					<div class="accordion">
+						<h3>Section 1</h3>
+						<div>
+						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+						<h3>Section 1</h3>
+						<div>
+						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+					</div>
+					<h3>Section 1</h3>
+					<div class="accordion">
+						<h3>Section 1</h3>
+						<div>
+						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+						<h3>Section 1</h3>
+						<div>
+						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+					</div>
 			</div>
 		</div>
 	</div>	
