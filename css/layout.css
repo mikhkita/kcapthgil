@@ -413,7 +413,7 @@ input:-moz-placeholder {
 				height: 100px;
 				position: absolute;
 				top: 50%;
-				margin-top: -50px;
+				margin-top: 73px;
 				cursor: pointer;
 				z-index: 10;
 			}
@@ -456,7 +456,7 @@ input:-moz-placeholder {
 				}
 				.b-difference .b-block .b-slider .slide .b-eyes .line {
 					margin-top: 24px;
-					width: 111px;
+					width: 73px;
 					margin-left: 34px;
 					margin-right: 29px;
 					height: 1px;
