@@ -1261,7 +1261,7 @@ input:-moz-placeholder {
 	.b-main{
 		background-size: 277%;
 	}
-		.b-header .b-block.main {
+		.b-header .b-block.main,.b-header .b-block.other {
 			padding: 22px 50px;
 		}
 			.b-header .b-block.main .b-logo a img,.b-header.fixed .b-logo a img {
@@ -1270,9 +1270,6 @@ input:-moz-placeholder {
 			}
 		.b-main .b-block {
 			padding: 250px 0 320px 0;
-		}
-		.b-header .b-block.main {
-			padding: 22px 50px !important;
 		}
 		.b-header.fixed .b-block {
 			padding: 22px 50px !important;

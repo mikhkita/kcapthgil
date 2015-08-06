@@ -1,7 +1,24 @@
 $(document).ready(function(){
 
-    var $menu = $(".scroll-menu");
-
+    function menu() {
+        var $menu = $(".scroll-menu");
+        if ($(window).width() > 767) {
+            $(".b-header.main").css("opacity","1");
+            var offset = $(".b-header.main").height(),
+            hideOffset = 14;
+            if($(".b-main").length > 0) {
+                hideOffset = offset;
+            } 
+            if ( $(this).scrollTop() > offset && $menu.hasClass("default") ){
+                $menu.removeClass("default").addClass("fixed").slideDown();
+            } else if($(this).scrollTop() <= hideOffset && $menu.hasClass("fixed")) {
+                $menu.removeClass("fixed").addClass("default").hide();
+            }
+        } else {
+            $(".b-header.main").css("opacity","0");
+            $menu.addClass("fixed").removeClass("default").show();
+        }
+    }
     function whenResize(){
         if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
@@ -15,27 +32,13 @@ $(document).ready(function(){
             myHeight = document.body.clientHeight;
         }
         $(".b-content").css("min-height",myHeight-($(".b-footer").height()+$(".b-header").height()) );
-        if ($(window).width() < 768) {
-            $(".b-header.main").css("opacity","0");
-            $menu.addClass("fixed").removeClass("default").show();
-        }
+        menu();
     }
     $(window).resize(whenResize);
     whenResize();
 
     $(window).scroll(function(){
-        if ($(window).width() > 767) {
-            var offset = $(".b-header.main").height(),
-            hideOffset = 14;
-            if($(".b-main").length > 0) {
-                hideOffset = offset;
-            } 
-            if ( $(this).scrollTop() > offset && $menu.hasClass("default") ){
-                $menu.removeClass("default").addClass("fixed").slideDown();
-            } else if($(this).scrollTop() <= hideOffset && $menu.hasClass("fixed")) {
-                $menu.removeClass("fixed").addClass("default").hide();
-            }
-        }
+        menu();
     });
 
     $(".menu-mobile.open").click(function() {
