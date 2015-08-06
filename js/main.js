@@ -33,6 +33,14 @@ $(document).ready(function(){
         }
         $(".b-content").css("min-height",myHeight-($(".b-footer").height()+$(".b-header").height()) );
         menu();
+
+        if( device.mobile() ){
+            if( myHeight < myWidth ){
+                $("body").addClass("horizontal");
+            }else{
+                $("body").removeClass("horizontal");
+            }
+        }
     }
     $(window).resize(whenResize);
     whenResize();

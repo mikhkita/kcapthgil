@@ -248,7 +248,7 @@ input:-moz-placeholder {
 		}
 			.b-header .b-logo a img {
 				width: 139px;
-				height: 73px;
+				/*height: 73px;*/
 			}
 	.b-header .b-menu {
 		margin-top: 18px;
@@ -886,7 +886,7 @@ input:-moz-placeholder {
 	}
 	.b-header.fixed .b-logo a img {
 		width: 98px;
-		height: 52px;
+		/*height: 52px;*/
 	}
 	.b-header.fixed .b-menu {
 		margin-top: 7px;
@@ -1263,7 +1263,14 @@ input:-moz-placeholder {
 	width: 44px;
 	height: 28px;
 	margin-top: 26px;
+	background-repeat: no-repeat;
+	background-size: 44px;
 }
+	.horizontal .menu-mobile{
+		background-size: 38px;
+		width: 38px;
+		margin-top: 11px;
+	}
 .menu-mobile.close {
 	display: none;
 	background-image: url("../i/close.png");
@@ -1273,17 +1280,25 @@ input:-moz-placeholder {
 .b-header .b-block .mobile-cont {
 	width: 100%;
 } 
+	.horizontal .b-header .b-block .mobile-cont{
 
+	}
 .b-header.fixed .b-menu{
 	width: 100%;
 	margin-top: 55px;
 	margin-bottom: 50px;
 }
+	.horizontal .b-header.fixed .b-menu{
+		margin-top: 10px;
+	}
 .b-menu ul {
 	float: none !important;
 	display: block;
 	margin-bottom: 20px;
 }
+	.horizontal .b-menu ul {
+		margin-bottom: 0px;
+	}
 .b-header .b-menu ul li {
 	float: none;
 	margin-right: 0;
@@ -1297,6 +1312,11 @@ input:-moz-placeholder {
     display: inline-block;
     letter-spacing: 1.37px;
 }
+	.horizontal .b-header .b-menu ul li a {
+		padding: 0px;
+		font-size: 28px;
+    	line-height: 28px;
+	}
 .b-header .b-menu ul li a:hover {
 	border-bottom: none;
 }
@@ -1308,6 +1328,9 @@ input:-moz-placeholder {
     font-size: 28px;
     letter-spacing: 2px;
 }
+	.horizontal .b-header .b-menu .b-white-butt{
+		padding: 20px 0 20px;
+	}
 .b-main .b-header,.b-header.fixed {
 	background-color: rgba(0,0,0,0.8);
 }
@@ -1319,7 +1342,10 @@ input:-moz-placeholder {
 		}
 			.b-header .b-block.main .b-logo a img,.b-header.fixed .b-logo a img {
 				width: 154px;
-				height: 80px;
+				/*height: 80px;*/
+			}
+			.horizontal .b-header .b-block.main .b-logo a img,.horizontal .b-header.fixed .b-logo a img{
+				width: 100px;
 			}
 		.b-main .b-block {
 			padding: 250px 0 320px 0;

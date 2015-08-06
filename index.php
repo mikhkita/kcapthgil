@@ -12,10 +12,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<meta name="keywords" content=''>
 	<meta name="description" content=''>
 	
-	<meta name="viewport" content="width=1000; user-scalable=no;">
+	<meta name="viewport" content="width=1000, user-scalable=no">
 
 	<? if( $mobile ): ?>
-	<meta name="viewport" content="width=750; user-scalable=no;">
+	<meta name="viewport" content="width=750, user-scalable=no">
 	<? endif; ?>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
