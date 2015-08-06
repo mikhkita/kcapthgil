@@ -896,6 +896,10 @@ input:-moz-placeholder {
 }
 	.b-content .b-block{
 		padding-top: 80px;
+		color: #000;
+	}	
+	.b-content .b-block h2{
+		color: #000;
 	}	
 .b-item {
     padding-bottom: 93px;
@@ -966,9 +970,6 @@ input:-moz-placeholder {
 			color: #4E4E55;
 			font-weight: 300;
 		}
-		.b-item .inform .params h2 {
-			color: #000;
-		}
 		.b-item .inform .params h3 {
 			font-family: "PNL";
 			font-size: 24px;
@@ -996,8 +997,7 @@ input:-moz-placeholder {
 					text-align: center;
 					border-radius: 4px;
 					cursor: pointer;
-				
-}
+				}
 				.b-item .inform .params ul li label {
 					display: block;
 					padding: 22px 22px 15px;
@@ -1183,7 +1183,6 @@ input:-moz-placeholder {
 }
 	.b-about h2 {
 		margin-bottom: 18px;
-		color: #000;
 	}
 	.b-about p{
 		margin-bottom: 40px;
