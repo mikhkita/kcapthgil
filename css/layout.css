@@ -366,6 +366,17 @@ a.link {
 		color: #000;
 		border: 1px solid #979797;
 		background-color: #fff;
+
+		-webkit-appearance: none;
+	    -moz-appearance: none;
+	    text-indent: 0.01px;
+	    text-overflow: '';
+	    -ms-appearance: none;
+	    appearance: none!important;
+	    background-image: url('../i/select-arrow.jpg');
+	    background-size: 40px;
+	    background-position: 100% 50%;
+	    background-repeat: no-repeat;
 	}
 	.b-popup textarea.left {
 		width: 808px;
