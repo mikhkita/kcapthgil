@@ -66,7 +66,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#" class="fancy" data-block="#support">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt butt">Buy it now</a>
+					<a href="#" class="fancy right b-white-butt butt" data-block="#buy-it-now">Buy it now</a>
 				</div>
 			</div>
 		</div>
@@ -333,6 +333,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<input type="hidden" name="subject" value="Support">
 					<a href="#" class="ajax b-blue-butt butt" onclick="$('#support-form').submit(); return false;">Send</a>
 				</form>
+				<span class="close" onclick="$.fancybox.close();"></span>
 			</div>
 		</div>
 		<div id="buy-it-now">
@@ -359,6 +360,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					</ul>
 					<input type="hidden" name="subject" value="buy-it-now">
 				</form>
+				<span class="close" onclick="$.fancybox.close();"></span>
 			</div>
 		</div>
 		<div id="b-popup-2">
