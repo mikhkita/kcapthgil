@@ -1752,7 +1752,32 @@ input:-moz-placeholder {
 				.b-footer .b-block ul.social li a img{
 					width: 48px;
 					height: 49px;
+					background-size: 96px 196px;
 				}
+				.b-footer .b-block ul.social li a.fb{
+					background-position: 0px 0px;
+				}
+					.b-footer .b-block ul.social li a.fb:hover{
+						background-position: -48px 0px;		
+					}
+				.b-footer .b-block ul.social li a.tw{
+					background-position: 0px -49px;
+				}
+					.b-footer .b-block ul.social li a.tw:hover{
+						background-position: -48px -49px;
+					}
+				.b-footer .b-block ul.social li a.gp{
+					background-position: 0px -98px;
+				}
+					.b-footer .b-block ul.social li a.gp:hover{
+						background-position: -48px -98px;
+					}
+				.b-footer .b-block ul.social li a.yt{
+					background-position: 0px -147px;
+				}
+					.b-footer .b-block ul.social li a.yt:hover{
+						background-position: -48px -147px;
+					}
 
 				.b-footer .b-block ul li a{
 					font-size: 32px;
