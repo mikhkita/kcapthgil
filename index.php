@@ -26,22 +26,17 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 </head>
 <body>
-	<!-- <ul class="ps-lines">
-		<li class="v" style="margin-left:-481px"></li>
-		<li class="v" style="margin-left:480px"></li>
-		<li class="v" ></li>
-	</ul> -->
 	<div class="b b-main">
 		<div class="b-header main">
 			<div class="b-block main clearfix">
 				<div class="b-logo left">
-					<a href="#"><img src="i/logo.png"></a>
+					<a href="index.php"><img src="i/logo.png"></a>
 				</div>
 				<div class="b-menu right clearfix">
 					<ul class="left clearfix">
-						<li><a href="#">about us</a></li>
-						<li><a href="#">downloads</a></li>
-						<li><a href="#">documentation</a></li>
+						<li><a href="about.php">about us</a></li>
+						<li><a href="downloads.php">downloads</a></li>
+						<li><a href="faq.php">documentation</a></li>
 						<li><a href="#" class="fancy" data-block="#support">support</a></li>
 					</ul>
 					<a href="#" class="fancy right b-white-butt butt" data-block="#buy-it-now">Buy it now</a>
@@ -61,9 +56,9 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				
 				<div class="b-menu right clearfix">
 					<ul class="left clearfix">
-						<li><a href="#">about us</a></li>
-						<li><a href="#">downloads</a></li>
-						<li><a href="#">documentation</a></li>
+						<li><a href="about.php">about us</a></li>
+						<li><a href="downloads.php">downloads</a></li>
+						<li><a href="faq.php">documentation</a></li>
 						<li><a href="#" class="fancy" data-block="#support">support</a></li>
 					</ul>
 					<a href="#" class="fancy right b-white-butt butt" data-block="#buy-it-now">Buy it now</a>
@@ -151,7 +146,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<div class="b b-fact">
 		<div class="b-block">
 			<p>Lightpack is a content-driven intellectual lighting system for your living room environment. It is designed for your displays (TV or PC monitor) and works perfectly with your PC or MAC.</p>
-			<a class="b-white-butt butt" href="#">buy it now</a>
+			<a class="b-white-butt butt fancy" data-block="#buy-it-now" href="#">buy it now</a>
 		</div>
 	</div>
 	<div class="b b-features">
@@ -206,14 +201,14 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<div class="b b-fact b-fact-2">
 		<div class="b-block">
 			<p>With Lightpack, you will have a completely new experience of visual perception while watching movies, playing games, or working with Windows, Linux, and Mac OS X.</p>
-			<a class="b-white-butt butt" href="#">buy it now</a>
+			<a class="b-white-butt butt fancy" data-block="#buy-it-now" href="#">buy it now</a>
 		</div>
 	</div>
 	<div class="b b-prismatic">
 		<div class="b-block">
 			<h2 class="title">Prismatik</h2>
 			<p class="desc">Prismatik is a cross-platform software for Lightpack controlling. There’s a desktop Prismatik that works in Windows, Linux and OS X. In addition to desktop version we also have a variety of plugins and connectors ready for service, which allow to control Lightpack from, for example, XBMC. There’s also an Android Prismatik, designed for media centers and HDMI-dongles based on Android 4 OS.</p>
-			<a class="b-blue-butt butt" href="#">downloads</a>
+			<a class="b-blue-butt butt" href="downloads.php">downloads</a>
 			<div class="windows">
 				<img class="l" src="i/prismatic-l.png">
 				<img class="c" src="i/prismatic-c.png">
@@ -288,11 +283,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		<div class="b-block">
 			<div>
 				<ul class="bot-menu">
-					<li><a href="#">NEWS</a></li>
-					<li><a href="#">ABOUT US</a></li>
-					<li><a href="#">PRIVACY POLICY</a></li>
-					<li><a href="#">TERMS OF SERVICE</a></li>
-					<li><a href="#">SUPPORT</a></li>
+					<li><a href="about.php">ABOUT US</a></li>
+					<li><a href="text.php">PRIVACY POLICY</a></li>
+					<li><a href="text.php">TERMS OF SERVICE</a></li>
+					<li><a href="#" class="fancy" data-block="#support">SUPPORT</a></li>
 				</ul>
 			</div>
 			<ul class="social">
@@ -329,7 +323,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<label class="topic" for="email">Email:</label>
 						<input type="text" id="email" name="email" placeholder="Your email" required>
 					</div>
-					<textarea class="left" name="message" placeholder="Your message"></textarea>
+					<textarea class="left" name="message" required placeholder="Your message"></textarea>
 					<input type="hidden" name="subject" value="Support">
 					<a href="#" class="ajax b-blue-butt butt" onclick="$('#support-form').submit(); return false;">Send</a>
 				</form>
