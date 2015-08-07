@@ -172,6 +172,7 @@ $(document).ready(function(){
     if( $(".accordion").length ){
         $( ".accordion" ).accordion({
             icons: icons,
+            active: false,
             collapsible: true,
             heightStyle: "content"
         });
