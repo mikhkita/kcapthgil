@@ -1,84 +1,84 @@
 
 @font-face {
-    font-family: "PNB";
+    font-family: "ProximaNova-Bold";
     src: url('../fonts/proxima_nova_bold.eot');
     src: url('../fonts/proxima_nova_bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_bold.woff2') format('woff2'),
          url('../fonts/proxima_nova_bold.woff') format('woff'),
          url('../fonts/proxima_nova_bold.ttf') format('truetype'),
-         url('../fonts/proxima_nova_bold.svg#PNB') format('svg');
+         url('../fonts/proxima_nova_bold.svg#ProximaNova-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PNS';
+    font-family: 'ProximaNova-Semibold';
     src: url('../fonts/proxima_nova_semibold.eot');
     src: url('../fonts/proxima_nova_semibold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_semibold.woff2') format('woff2'),
          url('../fonts/proxima_nova_semibold.woff') format('woff'),
          url('../fonts/proxima_nova_semibold.ttf') format('truetype'),
-         url('../fonts/proxima_nova_semibold.svg#PNS') format('svg');
+         url('../fonts/proxima_nova_semibold.svg#ProximaNova-Semibold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PNR';
+    font-family: 'ProximaNova';
     src: url('../fonts/proxima_nova_regular.eot');
     src: url('../fonts/proxima_nova_regular.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_regular.woff2') format('woff2'),
          url('../fonts/proxima_nova_regular.woff') format('woff'),
          url('../fonts/proxima_nova_regular.ttf') format('truetype'),
-         url('../fonts/proxima_nova_regular.svg#PNR') format('svg');
+         url('../fonts/proxima_nova_regular.svg#ProximaNova') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PNL';
+    font-family: 'ProximaNova-Light';
     src: url('../fonts/proxima_nova_light.eot');
     src: url('../fonts/proxima_nova_light.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_light.woff2') format('woff2'),
          url('../fonts/proxima_nova_light.woff') format('woff'),
          url('../fonts/proxima_nova_light.ttf') format('truetype'),
-         url('../fonts/proxima_nova_light.svg#PNL') format('svg');
+         url('../fonts/proxima_nova_light.svg#ProximaNova-Light') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PNT';
+    font-family: 'ProximaNova-Thin';
     src: url('../fonts/proxima_nova_thin.eot');
     src: url('../fonts/proxima_nova_thin.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_thin.woff2') format('woff2'),
          url('../fonts/proxima_nova_thin.woff') format('woff'),
          url('../fonts/proxima_nova_thin.ttf') format('truetype'),
-         url('../fonts/proxima_nova_thin.svg#PNT') format('svg');
+         url('../fonts/proxima_nova_thin.svg#ProximaNova-Thin') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'PNCB';
+    font-family: 'ProximaNovaCond-Bold';
     src: url('../fonts/proximanovacond-bold.eot');
     src: url('../fonts/proximanovacond-bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proximanovacond-bold.woff2') format('woff2'),
          url('../fonts/proximanovacond-bold.woff') format('woff'),
          url('../fonts/proximanovacond-bold.ttf') format('truetype'),
-         url('../fonts/proximanovacond-bold.svg#PNCB') format('svg');
+         url('../fonts/proximanovacond-bold.svg#ProximaNovaCond-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'PNRI';
+    font-family: 'ProximaNova-Italic';
     src: url('../fonts/proxima_nova_regular_italic.eot');
     src: url('../fonts/proxima_nova_regular_italic.eot?#iefix') format('embedded-opentype'),
          url('../fonts/proxima_nova_regular_italic.woff2') format('woff2'),
          url('../fonts/proxima_nova_regular_italic.woff') format('woff'),
          url('../fonts/proxima_nova_regular_italic.ttf') format('truetype'),
-         url('../fonts/proxima_nova_regular_italic.svg#PNRI') format('svg');
+         url('../fonts/proxima_nova_regular_italic.svg#ProximaNova-Italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -92,7 +92,7 @@ body {
 	-webkit-text-size-adjust: none;
 	text-align: center;
 	min-width: 1000px;
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', Arial;
 	overflow-x: hidden;
 	color: #fff;
 	font-size: 100%;
@@ -117,19 +117,19 @@ input.error,textarea.error{
 }
 .title{
 	color: #272C30;
-	font-family: "PNL";
+	font-family: "ProximaNova-Light";
 	font-size: 40px;
 	line-height: 49px;
 }
 .subtitle {
-	font-family: "PNL";
+	font-family: "ProximaNova-Light";
 	font-size: 24px;
 	line-height: 32px;
 	color: #4E4E55;
 }
 .topic {
 	color: #000;
-	font-family: "PNR";
+	font-family: "ProximaNova";
 	font-size: 20px;
 	line-height: 24px;
 
@@ -200,18 +200,18 @@ a.link {
 	margin-left: -500px;
 }
 
-input::-webkit-input-placeholder {
+::-webkit-input-placeholder {
 	font-family: "Helvetica Neue";
 	font-weight: normal;
 	color: rgba(255,255,255,0.7);
 }
-input:-moz-placeholder {
+:-moz-placeholder {
 	font-family: "Helvetica Neue";
 	font-weight: normal;
 	color: rgba(255,255,255,0.7);
 }
 .butt {
-	font-family: "PNS";
+	font-family: "ProximaNova-Semibold";
 	font-size: 14px;
 	line-height: 17px;
 	box-sizing: border-box;
@@ -246,7 +246,7 @@ input:-moz-placeholder {
 	color: #090C27;
 }
 	.b-download-butt span {
-		font-family: "PNR";
+		font-family: "ProximaNova";
 		color: #7A7C8D;
 		margin-left: 12px;
 		text-transform: none;
@@ -300,7 +300,7 @@ input:-moz-placeholder {
 					font-size: 14px;
 					color: #fff;
 					line-height: 17px;
-					font-family: "PNS";
+					font-family: "ProximaNova-Semibold";
 					padding: 10px 0;
 					display: block;
 					letter-spacing: 0.6px;
@@ -343,7 +343,7 @@ input:-moz-placeholder {
 	.b-main .b-block h1{
 		font-size: 48px;
 		line-height: 58px;
-		font-family: "PNT";
+		font-family: "ProximaNova-Thin";
 		padding: 0 10%;
     	display: inline-block;
 
@@ -379,7 +379,7 @@ input:-moz-placeholder {
 		.b-main .b-block .more a {
 			color: #fff;
 			font-size: 12px;
-			font-family: "PNS";
+			font-family: "ProximaNova-Semibold";
 			position: relative;
 			text-transform: uppercase;
 			letter-spacing: 1.4px;
@@ -454,7 +454,7 @@ input:-moz-placeholder {
 				top: 50%;
 				margin-top: 73px;
 				cursor: pointer;
-				z-index: 10;
+				z-index: 1100;
 			}
 			.b-difference .b-block .b-slider .slick-arrow.left-arrow {
 				left: 0;
@@ -464,7 +464,7 @@ input:-moz-placeholder {
 				right: 0;
 			}
 			.b-difference .b-block .b-slider .slide h3{
-				font-family: "PNL";
+				font-family: "ProximaNova-Light";
 				margin-top: 38px;
 				font-size: 24px;
 				line-height: 29px;
@@ -586,7 +586,7 @@ input:-moz-placeholder {
 				font-size: 18px;
 				line-height: 22px;
 			
-				font-family: "PNR";
+				font-family: "ProximaNova";
 }
 			.b-difference .b-block .switch .tumb{
 				cursor: pointer;
@@ -617,7 +617,7 @@ input:-moz-placeholder {
 		padding-bottom: 146px;
 	}
 		.b-fact .b-block p{
-			font-family: "PNL";
+			font-family: "ProximaNova-Light";
 			font-size: 24px;
 			line-height: 35px;
 		
@@ -663,7 +663,7 @@ input:-moz-placeholder {
 					line-height: 24px;
 					color: #4E4E55;
 					margin-top: 15px;
-					font-family: "PNR";
+					font-family: "ProximaNova";
 				}
 				.b-features .b-block p {
 					font-size: 14px;
@@ -751,7 +751,7 @@ input:-moz-placeholder {
 				}
 				.b-news .b-block ul li a {
 					display: block;
-					font-family: "PNR";
+					font-family: "ProximaNova";
 					color: #3137C1;
 					font-size: 18px;
 					line-height: 22px;
@@ -774,13 +774,13 @@ input:-moz-placeholder {
 	}
 		.b-quote .b-block h3{
 			font-size: 24px;
-			font-family: "PNRI";
+			font-family: "ProximaNova-Italic";
 			line-height: 35px;
 		
 			padding: 0 100px;
 }
 		.b-quote .b-block h5{
-			font-family: "PNR";
+			font-family: "ProximaNova";
 			font-size: 14px;
 			line-height: 17px;
 			margin-top: 20px;
@@ -867,7 +867,7 @@ input:-moz-placeholder {
 				margin-right: 15px;
 			}
 				.b-footer .b-block ul li a{
-					font-family: "PNR";
+					font-family: "ProximaNova";
 					display: inline-block;
 					color: #fff;
 					font-size: 14px;
@@ -922,7 +922,7 @@ input:-moz-placeholder {
 			}
 		
 		.b-footer .b-block h5{
-			font-family: "PNR";
+			font-family: "ProximaNova";
 			margin-top: 21px;
 			font-size: 14px;
 			line-height: 17px;
@@ -933,7 +933,7 @@ input:-moz-placeholder {
     position:fixed;
     top:0; 
     left:0;
-    z-index: 100;
+    z-index: 9999;
     width: 100%;
     background-color: #1D2023;
 }
@@ -1078,7 +1078,7 @@ input:-moz-placeholder {
 						border: 2px solid #4E4E55;
 					}
 						.b-item .inform .params ul li .rect span{
-							font-family: "PNR";
+							font-family: "ProximaNova";
 							color: #AAAAAA;
 							font-size: 24px;
 							line-height: 29px;
@@ -1114,7 +1114,7 @@ input:-moz-placeholder {
 						.b-item .inform .params ul li .first .rect h6{
 						    font-size: 12px;        
 						    line-height: 4px;        
-						    font-family: "PNR";
+						    font-family: "ProximaNova";
 						    color: #AAAAAA;
 						}
 						.b-item .inform .params ul li.active .first .rect h6 {
@@ -1147,7 +1147,7 @@ input:-moz-placeholder {
 		}
 			.b-item .inform .price .left label {
 				display: block;
-				font-family: "PNR";
+				font-family: "ProximaNova";
 				font-size: 20px;
 				line-height: 24px;
 
@@ -1157,7 +1157,7 @@ input:-moz-placeholder {
 				box-sizing: border-box;
 				padding: 13px 0 10px 19px;
     			border: 1px solid #979797;
-				font-family: "PNR";
+				font-family: "ProximaNova";
 				font-size: 20px;
 				line-height: 24px;
 				border-radius: 4px;
@@ -1185,7 +1185,7 @@ input:-moz-placeholder {
 				}
 			.b-item .inform .price .left h5 {
 				text-decoration: line-through;
-				font-family: "PNL";
+				font-family: "ProximaNova-Light";
 				font-size: 18px;
 				line-height: 22px;
 				color: #7A7C8D;
@@ -1193,7 +1193,7 @@ input:-moz-placeholder {
 				margin-top: 14px;
 			}
 			.b-item .inform .price .left h3 {
-				font-family: "PNL";
+				font-family: "ProximaNova-Light";
 				font-size: 40px;
 				line-height: 49px;
 			}
@@ -1348,7 +1348,7 @@ input:-moz-placeholder {
 	padding-top: 54px;
 }
 .b-content .b-block.faq .faq-menu {
-	margin-bottom: 48px;
+	margin-bottom: 40px;
 }
 	.b-content .b-block.faq .faq-menu li{
 		float: left;
@@ -1360,7 +1360,7 @@ input:-moz-placeholder {
 	    font-size: 14px;
 	    color: #88898E;
 	    line-height: 17px;
-	    font-family: "PNS";    
+	    font-family: "ProximaNova-Semibold";    
 		padding: 5px 0;
 	    display: block;
 	}
@@ -1373,7 +1373,6 @@ input:-moz-placeholder {
 		color: #4E4E55;
     	border-bottom: 2px solid #525259;
     }
-
 .b-faq {
 	text-align: left;
 	padding-bottom: 147px;
@@ -1436,6 +1435,10 @@ input:-moz-placeholder {
 			}
 
 			
+
+
+
+
 @media screen and (max-width: 767px){
 	body {
 		min-width: 750px;
@@ -1449,7 +1452,7 @@ input:-moz-placeholder {
 	}
 	
 	.title{
-	font-family: "PNR";
+	font-family: "ProximaNova";
 	font-size: 52px;
 	line-height: 63px;
 }
@@ -1518,7 +1521,7 @@ input:-moz-placeholder {
 .b-header .b-menu ul li a {
     font-size: 32px;
     line-height: 39px;
-    font-family: "PNS";
+    font-family: "ProximaNova-Semibold";
     padding: 20px;
     display: inline-block;
     letter-spacing: 1.37px;
@@ -1567,7 +1570,7 @@ input:-moz-placeholder {
 		.b-main .b-block h1{
 			font-size: 72px;
 			line-height: 87px;
-			font-family: "PNL";
+			font-family: "ProximaNova-Light";
 			padding: 0;
 
 		}
@@ -1625,7 +1628,7 @@ input:-moz-placeholder {
 				padding: 0 70px;
 			}
 				.b-difference .b-block .mobile h3{
-					font-family: "PNR";
+					font-family: "ProximaNova";
 					margin-top: 58px;
 					font-size: 36px;
 					line-height: 44px;
@@ -1677,7 +1680,7 @@ input:-moz-placeholder {
 		padding-bottom: 118px;
 	}
 		.b-fact .b-block p{
-			font-family: "PNR";
+			font-family: "ProximaNova";
 			font-size: 36px;
 			line-height: 56px;
 			padding: 0 35px;
@@ -1749,10 +1752,32 @@ input:-moz-placeholder {
 			.b-footer .b-block ul.social li{
 				margin-right: 40px;
 			}
-				.b-footer .b-block ul.social li a img{
+				.b-footer .b-block ul.social li a{
 					width: 48px;
 					height: 49px;
+					background-size: 96px 196px;
 				}
+						.b-footer .b-block ul.social li a.fb:hover{
+							background-position: -48px 0px;		
+						}
+					.b-footer .b-block ul.social li a.tw{
+						background-position: 0px -49px;
+					}
+						.b-footer .b-block ul.social li a.tw:hover{
+							background-position: -48px -49px;
+						}
+					.b-footer .b-block ul.social li a.gp{
+						background-position: 0px -98px;
+					}
+						.b-footer .b-block ul.social li a.gp:hover{
+							background-position: -48px -98px;
+						}
+					.b-footer .b-block ul.social li a.yt{
+						background-position: 0px -147px;
+					}
+						.b-footer .b-block ul.social li a.yt:hover{
+							background-position: -48px -147px;
+						}
 
 				.b-footer .b-block ul li a{
 					font-size: 32px;
@@ -1957,11 +1982,19 @@ input:-moz-placeholder {
 			width: 690px;
 		}
 			.b-about ul li h3 {
-			    font-family: "PNR";
+			    font-family: "ProximaNova";
 			    font-size: 36px;
 			}
 			.b-about ul li .right {
 			    width: 570px;
 			    max-height: 10000px;
 			}
+	.b-downloads .platform ul li h3{
+		font-family: "ProximaNova";
+		font-size: 32px;
+	}
+	.b-download-butt{
+		font-size: 22px;
+    	padding: 21px 30px 20px;
+	}
 } 

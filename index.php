@@ -44,7 +44,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">documentation</a></li>
 						<li><a href="#">support</a></li>
 					</ul>
-					<a href="#" class="right b-white-butt butt">Buy it now</a>
+					<a href="#" class="fancy right b-white-butt butt" data-block="#b-popup-1">Buy it now</a>
 				</div>
 				
 			</div>
