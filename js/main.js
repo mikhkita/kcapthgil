@@ -154,6 +154,18 @@ $(document).ready(function(){
     });
 
     $('#quantity').change(function() {
+        if($(this).val()=="1") {
+            $("#disp-sel li").removeClass("active");
+            $("#disp-sel li").eq(0).addClass("active");
+        }
+        if($(this).val()=="2") {
+            $("#disp-sel li").removeClass("active");
+            $("#disp-sel li").eq(1).addClass("active");
+        }
+        if($(this).val()=="3") {
+            $("#disp-sel li").removeClass("active");
+            $("#disp-sel li").eq(2).addClass("active");
+        }
        $("#old-price").text($(this).val()*109);
         $("#new-price").text($(this).val()*89);
     });
