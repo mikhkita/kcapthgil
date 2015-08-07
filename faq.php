@@ -103,34 +103,46 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<li><a href="#">PRIVACY POLICY</a></li>
 			</ul>
 			<div class="b-faq">
-				<h2 class="title">Frequently Asked Questions</h2>
-				<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</h3>
-				<div class="accordion">
-					<h3>Section 1</h3>
-					<div class="accordion">
-						<h3>Section 1</h3>
+				<div class="faq-text">
+					<h2 class="title">Frequently Asked Questions</h2>
+					<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</h3>
+				</div>
+				<div class="accordion parent">
+					<h3 class="subtitle">My TV set has USB, can I connect Lightpack directly to it?</h3>
+					<div class="accordion child">
+						<h3 class="subtitle">My TV set has USB, can I connect Lightpack directly to it?</h3>
 						<div>
-						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						    <p class="desc">No! A desktop operating system of Windows, Linux or OS X is necessary to install the Prismatik software that allows to capture the picture (or any rooted Android 4+ device with Prism app, see update #5). So, one more time: any display connected to Windows, Linux, OS X or Android.</p>
 						</div>
-						<h3>Section 1</h3>
+						<h3 class="subtitle">Has Prismatik got any limitations?</h3>
 						<div>
-						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						    <p class="desc">1</p>
+						</div>
+						<h3 class="subtitle">Can I use Lightpack with Xbox or PlayStation?</h3>
+						<div>
+						    <p class="desc">2</p>
+						</div>
+						<h3 class="subtitle">How many Lightpacks do I need?</h3>
+						<div>
+						    <p class="desc">3</p>
 						</div>
 					</div>
-					<h3>Section 1</h3>
-					<div class="accordion">
-						<h3>Section 1</h3>
-						<div>
-						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-						</div>
-						<h3>Section 1</h3>
-						<div>
-						    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-						</div>
+					<h3 class="subtitle">Does it work with my Raspberry Pi?</h3>
+					<div>
+						<p class="desc">4</p>
 					</div>
+					<h3 class="subtitle">Does it work with XBMC, OpenElec, etc?</h3>
+					<div>
+						<p class="desc">5</p>
+					</div>
+					<h3 class="subtitle">Will need a new AC/DC adapter plug in China, UK, Australia, Japan?</h3>
+					<div>
+						<p class="desc">6</p>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>	
+		</div>	
+	</div>
 	<div class="b-sub sub-2 hide">
 		<div class="b-block clearfix">
 			<div>

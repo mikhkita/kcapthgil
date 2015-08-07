@@ -165,14 +165,15 @@ $(document).ready(function(){
     $.fn.placeholder();
 
     var icons = {
-        header: "ui-icon-circle-arrow-e",
-        activeHeader: "ui-icon-circle-arrow-s"
+        header: "acc-header",
+        activeHeader: "acc-header acc-header-active"
     };
 
     if( $(".accordion").length ){
         $( ".accordion" ).accordion({
-            // icons: icons
-            collapsible: true
+            icons: icons,
+            collapsible: true,
+            heightStyle: "content"
         });
     }
 
