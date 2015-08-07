@@ -149,7 +149,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 								<span class="arrow down-arrow" onselectstart="return false;"></span>
 							</div>
 						</div>
-						<div class="left">
+						<div class="left summ">
 							<h5>$<span id="old-price">327</span>.00</h5>
 							<h3>$<span id="new-price">267</span>.00</h3>
 						</div>

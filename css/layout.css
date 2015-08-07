@@ -2126,8 +2126,13 @@ a.link {
 		padding-bottom: 0px;
 		border-bottom: none;
 	}	
-		.b-item .inform .price .left {
+		.b-item .inform .price .left{
 			margin-right: 54px;
+			position: relative;
+			
+		}
+		.b-item .inform .price .left.summ{
+			margin-right: 0;
 			position: relative;
 			
 		}
