@@ -1906,7 +1906,7 @@ a.link {
 					height: 49px;
 					background-size: 96px 196px;
 				}
-						.b-footer .b-block ul.social li a.fb:hover{
+					.b-footer .b-block ul.social li a.fb:hover{
 							background-position: -48px 0px;		
 						}
 					.b-footer .b-block ul.social li a.tw{
@@ -1927,7 +1927,6 @@ a.link {
 						.b-footer .b-block ul.social li a.yt:hover{
 							background-position: -48px -147px;
 						}
-
 				.b-footer .b-block ul li a{
 					font-size: 32px;
 					line-height: 70px;
