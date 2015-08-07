@@ -98,22 +98,29 @@ $(document).ready(function(){
 
     $( ".tumb" ).click(function() {
         if($(".tumb").hasClass("light")) {
-
+            $(".b-slider .slide .b-eyes .eye,#eye-text").fadeOut(function(){
+                $("#eye-text").text("5 sec.").fadeIn();
+                $(".b-slider .slide .b-eyes .eye").removeClass("tumb-eye").fadeIn();
+                $(".displays-cont .back").fadeOut();
+            });
             $( ".tumb" ).animate({
                 paddingLeft: "4px"
             }, 200 );
-            $("#eye-text").text("5 sec.");
-            $(".b-slider .slide .b-eyes .eye").removeClass("tumb-eye");
+            
             $(".tumb").removeClass("light");
-            $(".displays-cont .back").fadeOut();
+            
         } else {
+            $(".b-slider .slide .b-eyes .eye,#eye-text").fadeOut(function(){
+                $("#eye-text").text("3 sec.").fadeIn();
+                $(".b-slider .slide .b-eyes .eye").addClass("tumb-eye").fadeIn();
+                $(".displays-cont .back").fadeIn();
+            });
             $( ".tumb" ).animate({
                 paddingLeft: "62px"
             }, 200 );
-            $("#eye-text").text("3 sec.");
-            $(".b-slider .slide .b-eyes .eye").addClass("tumb-eye");
+            
             $(".tumb").addClass("light");
-            $(".displays-cont .back").fadeIn();
+            
         }
      
     });
