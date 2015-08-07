@@ -110,7 +110,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<div class="accordion parent">
 					<h3 class="subtitle">My TV set has USB, can I connect Lightpack directly to it?</h3>
 					<div class="accordion child">
-						<h3 class="subtitle">My TV set has USB, can I connect Lightpack directly to it?</h3>
+						<h3 class="subtitle">My TV set has USB, can I connect Lightpack?</h3>
 						<div>
 						    <p class="desc">No! A desktop operating system of Windows, Linux or OS X is necessary to install the Prismatik software that allows to capture the picture (or any rooted Android 4+ device with Prism app, see update #5). So, one more time: any display connected to Windows, Linux, OS X or Android.</p>
 						</div>
