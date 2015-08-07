@@ -161,6 +161,7 @@ input.error,textarea.error{
 .b-text{
 	text-align: left;
 	padding-bottom: 93px;
+	width: 715px;
 }
 .desc,
 .b-text p{
@@ -1148,7 +1149,7 @@ a.link {
     position:fixed;
     top:0; 
     left:0;
-    z-index: 999;
+    z-index: 9999;
     width: 100%;
     background-color: #1D2023;
 }
@@ -1661,6 +1662,7 @@ a.link {
 }	*/
 
 .b-text{
+	width: 690px;
 	padding-top: 0px;
 	padding-bottom: 40px;
 }
@@ -2285,5 +2287,13 @@ a.link {
 		margin-top: 30px;
 		padding: 33px 0 33px;
 		border-radius: 8px;
+	}
+
+	.b-faq .accordion h3 {
+	    padding: 33px 0 0 23px;
+	}
+
+	.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	    margin-top: 5px;
 	}
 } 
