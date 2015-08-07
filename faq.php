@@ -143,7 +143,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<ul class="bot-menu">
 					<li><a href="about.php">ABOUT US</a></li>
 					<li><a href="text.php">PRIVACY POLICY</a></li>
-					<li><a href="text.php">TERMS OF SERVICE</a></li>
+					<li><a href="detail.php">TERMS OF SERVICE</a></li>
 					<li><a href="#" class="fancy" data-block="#support">SUPPORT</a></li>
 				</ul>
 			</div>

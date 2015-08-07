@@ -159,7 +159,8 @@ input.error,textarea.error{
 
 }
 .b-text{
-	padding-top: 29px;
+	text-align: left;
+	padding-bottom: 93px;
 }
 .desc,
 .b-text p{
@@ -178,12 +179,14 @@ input.error,textarea.error{
 	font-family: "ProximaNova";
 	color: #000;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 .b-text h2{
 	color: #000;
 	font-family: "ProximaNova-Light";
     font-size: 40px;
     line-height: 49px;
+   	margin-bottom: 18px;
 }
 .b-text ul{
 	margin-top: 17px;
@@ -1168,7 +1171,6 @@ a.link {
 		color: #000;
 	}	
 .b-item {
-    padding-bottom: 93px;
 	
 }
 	.b-item h4{
@@ -1624,8 +1626,9 @@ a.link {
 				top: 37px !important;
     			left: 5px !important;
 			}
-
-			
+			.item-desc{
+				margin-top: 29px;
+			}
 
 
 
@@ -1655,7 +1658,8 @@ a.link {
 }	*/
 
 .b-text{
-	padding-top: 90px;
+	padding-top: 0px;
+	padding-bottom: 40px;
 }
 
 .desc,
@@ -1668,7 +1672,7 @@ a.link {
 .b-text h3{
 	font-size: 36px;
 	line-height: 37px;
-	margin-top: 80px;
+	padding-top: 55px;
 }
 .b-text h2{
 	font-family: "ProximaNova";

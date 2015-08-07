@@ -158,7 +158,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						</div>
 					</div>
 					</form>
-					<div class="b-text">
+					<div class="b-text item-desc">
 						<p>Shipping out from Los Angeles and Hong Kong next day</p>
 						<p>Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
 						<p>For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
@@ -195,7 +195,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<ul class="bot-menu">
 					<li><a href="about.php">ABOUT US</a></li>
 					<li><a href="text.php">PRIVACY POLICY</a></li>
-					<li><a href="text.php">TERMS OF SERVICE</a></li>
+					<li><a href="detail.php">TERMS OF SERVICE</a></li>
 					<li><a href="#" class="fancy" data-block="#support">SUPPORT</a></li>
 				</ul>
 			</div>
