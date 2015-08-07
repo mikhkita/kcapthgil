@@ -134,12 +134,46 @@ input.error,textarea.error{
 	line-height: 24px;
 
 }
-.desc {
+.b-text{
+	padding-top: 29px;
+}
+.desc,
+.b-text p{
 	color: #7A7C8D;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;    
 }
+.b-text p,
+.b-text ul li{
+	color: #4E4E55;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.b-text h3{
+	font-family: "ProximaNova";
+	color: #000;
+	font-size: 20px;
+}
+.b-text h2{
+	color: #000;
+	font-family: "ProximaNova-Light";
+    font-size: 40px;
+    line-height: 49px;
+}
+.b-text ul{
+	margin-top: 17px;
+    margin-left: 15px;
+    margin-bottom: 36px;
+}
+.b-text ul li{
+	font-size: 14px;
+	list-style: disc;
+	padding-left: 11px;
+	margin-bottom: 9px;
+	line-height: 22px;
+}
+
 a.link {
 	text-decoration: underline;
 	color: #3137C1;
@@ -1204,24 +1238,6 @@ a.link {
 				width: 170px;
 				margin-top: 31px;
 			}
-	.b-item .inform .item-desc{
-		padding-top: 29px;
-	}	
-		.b-item .inform .item-desc p.desc {
-			margin-bottom: 24px;
-		
-		}	
-		.b-item .inform .item-desc ul {
-		    margin-top: 17px;
-		    margin-left: 15px;
-		    margin-bottom: 36px;
-		}
-			.b-item .inform .item-desc ul li {
-				list-style: disc;
-				padding-left: 11px;
-				margin-bottom: 8px;
-				line-height: 22px;
-			}
 .b-about {
 	text-align: left;
 	color: #4E4E55;
@@ -1463,10 +1479,32 @@ a.link {
 	font-weight: 400;    
 }	*/
 
-.desc {
+.b-text{
+	padding-top: 90px;
+}
+
+.desc,
+.b-text p,
+.b-text ul li{
 	max-height: 10000px;
 	font-size: 24px !important;
 	line-height: 38px !important;
+}
+.b-text h3{
+	font-size: 36px;
+	line-height: 37px;
+	margin-top: 80px;
+}
+.b-text h2{
+	font-family: "ProximaNova";
+	font-size: 52px;
+	line-height: 63px;
+}
+.b-text ul{
+	
+}
+.b-text ul li{
+	
 }
 
 .menu-mobile {
@@ -1808,7 +1846,7 @@ a.link {
 		max-width: 690px;
 	}	
 .b-item {
-    padding-bottom: 74px;
+    padding-bottom: 60px;
 	
 }
 	.b-item h4{
@@ -1995,5 +2033,14 @@ a.link {
 	.b-download-butt{
 		font-size: 22px;
     	padding: 21px 30px 20px;
+	}
+	.b-faq .accordion.parent{
+		width: 690px;
+	}
+	.b-faq .accordion h3,
+	.b-faq .accordion.child h3{
+		font-size: 25px;
+		line-height: 30px;
+		font-family: "ProximaNova-Semibold";
 	}
 } 

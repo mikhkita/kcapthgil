@@ -164,23 +164,23 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						</div>
 					</div>
 					</form>
-					<div class="item-desc">
-						<p class="desc">Shipping out from Los Angeles and Hong Kong next day</p>
-						<p class="desc">Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
-						<p class="desc">For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
-						<p class="desc">Customs/export fees may vary and are not included into the shipping price.</p>
-						<h4 class="topic">Box content:</h4>
+					<div class="b-text">
+						<p>Shipping out from Los Angeles and Hong Kong next day</p>
+						<p>Typical delivery time is 10 business days, but due to customs routines the maximum delivery time can be as long as 6 weeks. We guarantee that Lightpack is delivered in 30 business days.</p>
+						<p>For US and Canada based customers: typical delivery time is 4 business days and maximum delivery time is 10 business days.</p>
+						<p>Customs/export fees may vary and are not included into the shipping price.</p>
+						<h3>Box content:</h3>
 						<ul>
-							<li class="desc">Lightpack main unit</li>
-							<li class="desc">10 LED-modules with 70 cm cable length</li>
-							<li class="desc">Micro USB cable</li>
-							<li class="desc">AC adaptor with interchangeable plug for US, EU and UK socket (AU customers will require a converter)</li>
-							<li class="desc">Mount accessories</li>
-							<li class="desc">Quick Install Guide and Warranty term sheet</li>
+							<li>Lightpack main unit</li>
+							<li>10 LED-modules with 70 cm cable length</li>
+							<li>Micro USB cable</li>
+							<li>AC adaptor with interchangeable plug for US, EU and UK socket (AU customers will require a converter)</li>
+							<li>Mount accessories</li>
+							<li>Quick Install Guide and Warranty term sheet</li>
 						</ul>
 						<div class="item-links">
-							<p class="desc">Lightpack requires a connection to computer or Android device with Prismatik software installed. Prismatik can be obtained at <a class="link" href="#">http://lightpack.tv/downloads</a></p>
-							<p class="desc">Prismatik is compatible with Windows, Mac OS X, Linux, Android, and works with many Android-based media centers. See <a class="link" href="#">FAQ</a> for details and software limitations.</p>
+							<p>Lightpack requires a connection to computer or Android device with Prismatik software installed. Prismatik can be obtained at <a class="link" href="#">http://lightpack.tv/downloads</a></p>
+							<p>Prismatik is compatible with Windows, Mac OS X, Linux, Android, and works with many Android-based media centers. See <a class="link" href="#">FAQ</a> for details and software limitations.</p>
 						</div>
 					</div>
 				</div>
