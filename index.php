@@ -106,7 +106,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					<div class="clearfix b-eyes">
 						<div class="left eye eye-1"></div>
 						<div class="left line"></div>
-						<h4 class="left">5 sec.</h4>
+						<h4 class="left" id="eye-text">5 sec.</h4>
 						<div class="left line"></div>
 						<div class="right eye"></div>
 					</div>

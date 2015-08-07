@@ -709,6 +709,12 @@ a.link {
 				.b-difference .b-block .b-slider .slide .b-eyes .eye-1{
 					background-image: url("../i/eye-1.png");
 				}
+				.b-difference .b-block .b-slider .slide .b-eyes .eye.tumb-eye {
+					background-image: url("../i/eye-4.png");
+				}
+				.b-difference .b-block .b-slider .slide .b-eyes .eye-1.tumb-eye{
+					background-image: url("../i/eye-3.png");
+				}
 				.b-difference .b-block .b-slider .slide .b-eyes .line {
 					margin-top: 24px;
 					width: 73px;
