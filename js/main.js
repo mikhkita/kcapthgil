@@ -178,4 +178,30 @@ $(document).ready(function(){
         });
     }
 
+    $("#disp-sel label").click(function(){
+
+        if ( $("#display-1" ).prop( "checked" ) ) {
+            $("#quantity").val("1");
+            $("#old-price").text("109");
+            $("#new-price").text("89");
+        }
+        if ( $("#display-2" ).prop( "checked" ) ) {
+            $("#quantity").val("2");
+            $("#old-price").text("218");
+            $("#new-price").text("178");
+        }
+        if ( $("#display-3" ).prop( "checked" ) ) {
+            $("#quantity").val("3");
+            $("#old-price").text("327");
+            $("#new-price").text("267");
+        }
+    });
+
+
+
+
+
+
+
+
 });

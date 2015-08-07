@@ -150,8 +150,8 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 							</div>
 						</div>
 						<div class="left">
-							<h5>$109.00</h5>
-							<h3>$89.00</h3>
+							<h5>$<span id="old-price">327</span>.00</h5>
+							<h3>$<span id="new-price">267</span>.00</h3>
 						</div>
 						<div class="right">
 							<a href="#" class="b-blue-butt butt" onclick='$("#buy").submit(); return false;'>buy it now</a>
