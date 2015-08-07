@@ -121,21 +121,30 @@ $(document).ready(function(){
     });
     $("#quantity").keyup(function(){
         if($("#quantity").val()=='0') $("#quantity").val("1");
+        $("#quantity").change();
     });
     $("#quantity").focusout(function(){
         if($("#quantity").val()=='') $("#quantity").val("1");
+        $("#quantity").change();
     });
     $(".up-arrow").click(function(){
         quantity = $("#quantity").val()*1;
         if(quantity<999) {
             $("#quantity").val(quantity+1);
+            $("#quantity").change();
         }
     });
     $(".down-arrow").click(function(){
         quantity = $("#quantity").val()*1;
         if(quantity>1) {
             $("#quantity").val(quantity-1);
+            $("#quantity").change();
         }
+    });
+
+    $('#quantity').change(function() {
+       $("#old-price").text($(this).val()*109);
+        $("#new-price").text($(this).val()*89);
     });
 
     $.fn.placeholder = function() {
@@ -182,18 +191,15 @@ $(document).ready(function(){
 
         if ( $("#display-1" ).prop( "checked" ) ) {
             $("#quantity").val("1");
-            $("#old-price").text("109");
-            $("#new-price").text("89");
+            $("#quantity").change();
         }
         if ( $("#display-2" ).prop( "checked" ) ) {
             $("#quantity").val("2");
-            $("#old-price").text("218");
-            $("#new-price").text("178");
+            $("#quantity").change();
         }
         if ( $("#display-3" ).prop( "checked" ) ) {
             $("#quantity").val("3");
-            $("#old-price").text("327");
-            $("#new-price").text("267");
+            $("#quantity").change();
         }
     });
 
