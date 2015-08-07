@@ -1876,7 +1876,7 @@ a.link {
 					display: inline-block;
 				}
 					.b-difference .b-block .mobile .b-eyes .eye {
-						background-image: url("../i/eye-2.png");
+						background-image: url("../i/eye-2-m.png");
 						background-size: contain;
 						background-repeat: no-repeat;
 						width: 124px;
@@ -1884,7 +1884,7 @@ a.link {
 						background-position: 50% 50%;
 					}
 					.b-difference .b-block .mobile .b-eyes .eye-1{
-						background-image: url("../i/eye-1.png");
+						background-image: url("../i/eye-1-m.png");
 						margin-right: 35px;
 					}
 					.b-difference .b-block .mobile .b-eyes .line {
