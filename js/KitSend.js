@@ -67,11 +67,13 @@ $(document).ready(function(){
 				if( $this.attr("data-beforeClose") && customHandlers[$this.attr("data-beforeClose")] ){
 					customHandlers[$this.attr("data-beforeClose")]($this);
 				}
+
 			},
 			afterClose: function(){
 				if( $this.attr("data-afterClose") && customHandlers[$this.attr("data-afterClose")] ){
 					customHandlers[$this.attr("data-afterClose")]($this);
 				}
+				$popup.find("input[type=text],textarea").val("").removeClass("error");
 			}
 		});
 	});

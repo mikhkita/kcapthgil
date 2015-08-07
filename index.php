@@ -42,9 +42,9 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">about us</a></li>
 						<li><a href="#">downloads</a></li>
 						<li><a href="#">documentation</a></li>
-						<li><a href="#">support</a></li>
+						<li><a href="#" class="fancy" data-block="#support">support</a></li>
 					</ul>
-					<a href="#" class="fancy right b-white-butt butt" data-block="#b-popup-1">Buy it now</a>
+					<a href="#" class="fancy right b-white-butt butt" data-block="#buy-it-now">Buy it now</a>
 				</div>
 				
 			</div>
@@ -64,7 +64,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">about us</a></li>
 						<li><a href="#">downloads</a></li>
 						<li><a href="#">documentation</a></li>
-						<li><a href="#">support</a></li>
+						<li><a href="#" class="fancy" data-block="#support">support</a></li>
 					</ul>
 					<a href="#" class="right b-white-butt butt">Buy it now</a>
 				</div>
@@ -306,19 +306,58 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	</div>
 
 	<div style="display:none;">
-		<div id="b-popup-1">
-			<div class="for_all b-popup" >
-				<h3>Оставьте заявку</h3>
-				<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
-					<div class="b-popup-form">
-						<label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/>
-						<label for="tel">Введите Ваш номер телефона</label>
-						<input type="text" id="tel" name="phone" required/>
-						<input type="hidden" name="subject" value="Заказ"/>
-						<input type="submit" class="ajax b-orange-butt" value="Заказать">
+		<div id="support">
+			<div class="for_all b-popup">
+				<h2 class="title">Support</h2>
+				<h3 class="subtitle">We would like to receive feedback from you. Questions, collaboration proposal or any suggestions is appretiated too. But, please, be sure you check our docs, faq or how it works pages for common Lightpack info first.</h3>
+				<form class="clearfix" action="kitsend.php" method="POST" id="support-form" data-block="#support">		
+					<div class="left">
+						<label class="topic">Please select your subject first:</label>
+						<select name="theme">
+							<option value="1" selected>Order, payment, shipment or buy process</option>
+  							<option value="2">Lightpack mount and setup</option>
+  							<option value="3">Prismatik questions, suggestions and issues</option>
+  							<option value="4">Something goes wrong</option>
+  							<option value="5">Partnership</option>
+  							<option value="6">Press</option>
+  							<option value="7">Returns</option>
+  							<option value="8">LED-modules replacement</option>
+  							<option value="9">Other</option>
+						</select>
 					</div>
+					<div class="left">
+						<label class="topic" for="email">Email:</label>
+						<input type="text" id="email" name="email" placeholder="Your email" required>
+					</div>
+					<textarea class="left" name="message" placeholder="Your message"></textarea>
+					<input type="hidden" name="subject" value="Support">
+					<a href="#" class="ajax b-blue-butt butt" onclick="$('#support-form').submit(); return false;">Send</a>
+				</form>
+			</div>
+		</div>
+		<div id="buy-it-now">
+			<div class="for_all b-popup buy-it-now">
+				<h4 class="topic">Sparkle brighter than Fireworks.</h4>
+				<p class="desc">Blue, red, green and white. Pure colors with Lightpack. + Free shipping all around the world.</p>
+				<form class="clearfix" action="kitsend.php" method="POST" id="buy-it-now-form" data-block="#buy-it-now">		
+					<ul>
+						<li class="one">
+							<h4 class="topic">1 Lightpack</h4>
+							<h4 class="topic price"><strike>$119</strike>$89</h4>
+							<a href="#" class="ajax b-white-butt butt" onclick="$('#buy-it-now-form').submit(); return false;">Buy it now</a>
+						</li>
+						<li class="two">
+							<h4 class="topic">2 Lightpack</h4>
+							<h4 class="topic price"><strike>$238</strike>$178</h4>
+							<a href="#" class="ajax b-white-butt butt" onclick="$('#buy-it-now-form').submit(); return false;">Buy it now</a>
+						</li>
+						<li class="three">
+							<h4 class="topic">3 Lightpack</h4>
+							<h4 class="topic price"><strike>$357</strike>$267</h4>
+							<a href="#" class="ajax b-white-butt butt" onclick="$('#buy-it-now-form').submit(); return false;">Buy it now</a>
+						</li>
+					</ul>
+					<input type="hidden" name="subject" value="buy-it-now">
 				</form>
 			</div>
 		</div>

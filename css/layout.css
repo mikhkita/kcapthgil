@@ -108,12 +108,35 @@ li{
 h1,h2,h3,h4,h5,h6{
 	font-weight: 500;    
 }
+.b-popup::-webkit-input-placeholder {
+	font-family: "ProximaNova";
+	font-weight: normal;
+	color: #999999;
+}
+.b-popup:-moz-placeholder {
+	font-family: "ProximaNova";
+	font-weight: normal;
+	color: #999999;
+}
+
 label.error{
 	display: none !important;
 }
 input.error,textarea.error{
 	border: 1px solid #F00 !important;
 	box-shadow: 0 0px 0px 1px #F00;
+}
+.b-popup input.error,.b-popup textarea.error{
+	border: 1px solid #DE8080 !important;
+	background-color: #FFF1F1 !important;
+}
+.fancybox-skin {
+	background: none;
+}
+.fancybox-opened .fancybox-skin {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 .title{
 	color: #272C30;
@@ -200,16 +223,7 @@ a.link {
 	margin-left: -500px;
 }
 
-::-webkit-input-placeholder {
-	font-family: "Helvetica Neue";
-	font-weight: normal;
-	color: rgba(255,255,255,0.7);
-}
-:-moz-placeholder {
-	font-family: "Helvetica Neue";
-	font-weight: normal;
-	color: rgba(255,255,255,0.7);
-}
+
 .butt {
 	font-family: "ProximaNova-Semibold";
 	font-size: 14px;
@@ -259,6 +273,141 @@ a.link {
 		.b-download-butt:hover span {
 			color: #fff;
 		}
+
+.b-popup {
+	width: 900px;
+	padding: 24px 37px 20px 37px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-sizing:border-box;
+	position: relative;
+	margin-bottom: 30px;
+}
+.fancybox-close {
+	background-image: url("../i/popup-close.png");
+	width: 18px;
+	height: 18px;
+	background-position: 50% 50%;
+	background-size: 18px 18px;
+	background-repeat: no-repeat;
+	top: 15px;
+	right: 30px;
+	padding: 5px;
+}
+	.b-popup h2{
+		margin-bottom: 21px;
+	}
+	.b-popup h3{
+		width: 700px;
+		display: inline-block;
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 41px;
+	}
+	.b-popup label {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.b-popup .left {
+		text-align: left;
+		width: 395px;
+		margin-right: 18px;
+	}
+	.b-popup .left select,.b-popup .left input[type='text'],.b-popup textarea.left {
+		width: 395px;
+		border-radius: 4px;
+		height: 49px;
+		font-family: "ProximaNova";
+		box-sizing:border-box;
+		padding: 0 19px;
+		font-size: 16px;
+		color: #000;
+		border: 1px solid #979797;
+		background-color: #fff;
+	}
+	.b-popup textarea.left {
+		width: 808px;
+		resize: none;
+		margin-top: 20px;
+		padding: 15px 19px;
+		height: 190px;
+	}
+	.b-popup .b-blue-butt {
+		width: 120px;
+		margin-top: 20px;
+	}
+
+.buy-it-now {
+	width: 620px;
+	padding: 32px 0 33px;
+	background-image: url("../i/popup-back.jpg");
+	background-position: 50% 100%;
+	background-size: cover;
+}
+	.buy-it-now h4 {
+		color: #fff;
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.buy-it-now p {
+		margin-top: 13px;
+		font-size: 14px;
+		line-height: 22px;
+		color: #fff;
+		width: 345px;
+	
+		display: inline-block;
+}
+	.buy-it-now ul {
+    text-align: left;
+
+	}
+		.buy-it-now ul li{
+			width: 203px;
+			padding-top: 200px;
+			display: inline-block;
+			text-align: center;
+			position: relative;
+		}
+			.buy-it-now ul li:after {
+				background-image: url("../i/popup-img1.png");
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				position: absolute;
+				content: "s";
+				font-size: 0px;
+				width: 201px;
+				height: 198px;
+				top: 0px;
+				left: 0px;
+
+			}
+			.buy-it-now ul li.two:after {
+				background-image: url("../i/popup-img2.png");
+			}
+			.buy-it-now ul li.three:after {
+				background-image: url("../i/popup-img3.png");
+			}
+			.buy-it-now ul li h4 {
+				font-size: 20px;
+				line-height: 24px;
+			}
+			.buy-it-now ul li h4.price {
+				font-size: 24px;
+				line-height: 29px;
+				color: #B8E986;
+				margin-bottom: 12px;
+			}
+				.buy-it-now ul li h4.price strike {
+					font-size: 16px;
+					line-height: 20px;
+					color: #fff;
+					margin-right: 7px;
+				}
+			.buy-it-now ul li .b-white-butt {
+				width: 116px;
+				padding: 12px 0 11px;
+			}
 
 
 .mobile {
@@ -1348,7 +1497,7 @@ a.link {
 	padding-top: 54px;
 }
 .b-content .b-block.faq .faq-menu {
-	margin-bottom: 40px;
+	margin-bottom: 48px;
 }
 	.b-content .b-block.faq .faq-menu li{
 		float: left;
