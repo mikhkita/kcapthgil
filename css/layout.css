@@ -574,6 +574,9 @@ a.link {
 			padding-left: 6px;
 			
 		}
+		.b-main .b-block .play a:hover {
+			opacity: 0.8;
+		}
 			.b-main .b-block .play span{
 				background-image: url("../i/play.png");
 				background-position: 50%;
