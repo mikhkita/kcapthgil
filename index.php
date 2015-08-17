@@ -70,9 +70,9 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 			<div class="play">
 				<a href="https://www.youtube.com/embed/RgKAFK5djSk?autoplay=1" class="fancy-img fancybox.iframe"><span></span></a>
 			</div>	
-			<div class="more">
-				<a href="#" class="b-go" data-block=".b-difference" data-offset="75">Learn more</a>
-			</div>
+		</div>
+		<div class="more">
+			<a href="#" class="b-go" data-block=".b-difference" data-offset="75">Learn more</a>
 		</div>
 	</div>
 	<div class="b-sub">
@@ -103,37 +103,41 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<div class="slide">
 					<h3>Reduce the difference in lighting between dark and bright scenes</h3>
 					<p>It takes about 5 sec for an eye pupil to narrow to react to bright light, and up to 5 mins to increase the size of a pupil when scene gets dark back. Every movie switches from dark to bright scenes a large number of times. The muscles of an eye are in constant tension which can lead to vision problems. Lightpack can compensate rapid fluctuations of the room light.</p>
-					<div class="clearfix b-eyes">
-						<div class="left eye eye-1"></div>
-						<div class="left line"></div>
-						<h4 class="left" id="eye-text">5 sec.</h4>
-						<div class="left line"></div>
-						<div class="right eye"></div>
-					</div>
-					<div class="clearfix displays-cont">
-						<div class="left">
-							<span class="back"></span>
-							<span class="front"></span>
-						</div>	
-						<div class="right">
-							<span class="back"></span>
-							<span class="front"></span>
+					<div class="slide-main">
+						<div class="clearfix b-eyes">
+							<div class="left eye eye-1"></div>
+							<div class="left line"></div>
+							<h4 class="left" id="eye-text">5 sec.</h4>
+							<div class="left line"></div>
+							<div class="right eye"></div>
+						</div>
+						<div class="clearfix displays-cont">
+							<div class="left">
+								<span class="back"></span>
+								<span class="front"></span>
+							</div>	
+							<div class="right">
+								<span class="back"></span>
+								<span class="front"></span>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="slide">
 					<h3>Utilize eye-focus specifity</h3>
 					<p>Your eye anatomy can't focus on the whole field of view. So your eye percepts your display like picture on right. Most of field of vision is unfocused and you percept solid picture only thanks to brain capabilities. That's why Lightpack can "expand" your screen.</p>
-					<div class="clearfix b-eyes">
-						<div class="left line"></div>
-						<h4 class="left">You see your display as 42</h4>
-						<div class="left line"></div>
-					</div>
-					<div class="displays-cont">
-						<div class="bg">
-							<span class="back"></span>
-							<span class="front"></span>
-						</div>	
+					<div class="slide-main">
+						<div class="clearfix b-eyes">
+							<div class="left line"></div>
+							<h4 class="left">You see your display as 42</h4>
+							<div class="left line"></div>
+						</div>
+						<div class="displays-cont">
+							<div class="bg">
+								<span class="back"></span>
+								<span class="front"></span>
+							</div>	
+						</div>
 					</div>
 				</div>
 			</div>

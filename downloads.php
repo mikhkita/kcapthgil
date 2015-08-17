@@ -22,6 +22,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
 	<link rel="stylesheet" href="css/slick.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
@@ -123,7 +124,22 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						</li>
 					</ul>
 				</div>
-				<h2 class="title advanced">Advanced (firmware update)</h2>
+				<div class="accordion advanced">
+					<h3 class="title">Advanced (firmware update)</h3>
+					<div>
+						<h4 class="topic">Also we have firmware for your Lightpack devices. Please use it only with mass-produced Lightpack from Woodenshark. This files do not suitable for cloned or DIYed Lightpacks! You can found firmware upgrading tutorial in Lightpack docs.</h4>
+						<div class="platform clearfix">
+
+							<ul class="left">
+								<li>	
+									<h3 class="subtitle">Firmware 7.6 for Lightpack-USB</h3>
+									<p class="desc">Firmware .hex file for Lightpack-USB. Please, carefully read our firmware update tut befor starting. Use only Atmel FLIP utility to upload firmware to MCU.</p>
+									<a href="#" class="b-download-butt butt">download<span>619.7Kb</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>	
@@ -226,6 +242,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/device.js"></script>
 <script type="text/javascript" src="js/KitSend.js"></script>

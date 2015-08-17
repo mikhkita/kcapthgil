@@ -166,7 +166,7 @@ input.error,textarea.error{
 .desc,
 .b-text p{
 	color: #7A7C8D;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;    
 }
@@ -195,7 +195,7 @@ input.error,textarea.error{
     margin-bottom: 36px;
 }
 .b-text ul li{
-	font-size: 14px;
+	font-size: 16px;
 	list-style: disc;
 	padding-left: 11px;
 	margin-bottom: 9px;
@@ -415,7 +415,7 @@ a.link {
 	}
 	.buy-it-now p {
 		margin-top: 13px;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 22px;
 		color: #fff;
 		width: 345px;
@@ -537,11 +537,12 @@ a.link {
 	display: none;
 }
 .b-main{
+	min-height: 768px; 
 	background-image: url("../i/main-back.jpg");
 	background-position: 50% 0%;
 }
 	
-	.b-main .b-block {
+	.b-main .b-block{
 		padding-top: 167px;
 		padding-bottom: 56px;
 	}
@@ -588,11 +589,14 @@ a.link {
 				display: inline-block;
 			}
 	
-	.b-main .b-block .more {
-		margin-top: 279px;
+	.b-main .more {
+		left: 50%;
+		margin-left: -44px;
+		bottom: 56px;
+		position: absolute;
 		font-size: 0;
 	}
-		.b-main .b-block .more a {
+		.b-main .more a {
 			color: #fff;
 			font-size: 12px;
 			font-family: "ProximaNova-Semibold";
@@ -600,7 +604,7 @@ a.link {
 			text-transform: uppercase;
 			letter-spacing: 1.4px;
 		}
-			.b-main .b-block .more a:after {
+			.b-main .more a:after {
 				background-image: url("../i/more-arrow.png");
 				background-position: 50% 50%;
 				background-repeat: no-repeat;
@@ -636,7 +640,7 @@ a.link {
 				border-radius: 4px;
 				padding: 0 25px;
 				padding: 15px 25px 14px;
-				font-size: 14px;
+				font-size: 16px;
 			
 }
 			.b-sub .b-block div .b-white-butt {
@@ -650,8 +654,10 @@ a.link {
 	background-size: cover;
 }
 	.b-difference .b-block {	
-		padding-top: 65px;
-		padding-bottom: 57px;
+		/*padding-top: 65px;
+		padding-bottom: 57px;*/
+		padding-top: 40px;
+    	padding-bottom: 50px;
 	}
 		.b-difference .b-block h2{
 			color: #fff;
@@ -681,21 +687,24 @@ a.link {
 			}
 			.b-difference .b-block .b-slider .slide h3{
 				font-family: "ProximaNova-Light";
-				margin-top: 38px;
+				/*margin-top: 38px;*/
+				margin-top: 20px;
 				font-size: 24px;
 				line-height: 29px;
 			}
 			.b-difference .b-block .b-slider .slide p{
-				font-size: 14px;
+				font-size: 16px;
 				line-height: 24px;
-				margin-top: 23px;
+				/*margin-top: 23px;*/
+				margin-top: 15px;
+				/*margin-bottom: 78px;*/
+				margin-bottom: 40px;
 				color: rgba(255,255,255,0.6);
 				padding: 0 70px;
 			
 				font-weight: 300;
 }
 			.b-difference .b-block .b-slider .slide .b-eyes {
-				margin-top: 78px;
 				display: inline-block;
 			}
 				.b-difference .b-block .b-slider .slide .b-eyes .eye {
@@ -802,7 +811,8 @@ a.link {
 }
 				
 		.b-difference .b-block .switch {
-			margin-top: 75px;
+			/*margin-top: 75px;*/
+			margin-top: 25px;
 		}
 			.b-difference .b-block .switch h3{
 				font-size: 18px;
@@ -888,7 +898,7 @@ a.link {
 					font-family: "ProximaNova";
 				}
 				.b-features .b-block p {
-					font-size: 14px;
+					font-size: 16px;
 					line-height: 19px;
 					color: #929292;
 					margin-top: 11px;
@@ -912,7 +922,7 @@ a.link {
 		.b-prismatic .b-block p{
 			margin-top: 28px;
 			padding: 0 55px;
-			font-size: 14px;
+			font-size: 16px;
 			line-height: 24px;
 			color: #7A7C8D;
 		
@@ -1003,7 +1013,7 @@ a.link {
 }
 		.b-quote .b-block h5{
 			font-family: "ProximaNova";
-			font-size: 14px;
+			font-size: 16px;
 			line-height: 17px;
 			margin-top: 20px;
 			color: rgba(255,255,255,0.6);
@@ -1089,7 +1099,7 @@ a.link {
 				margin-right: 15px;
 			}
 				.b-footer .b-block ul li a{
-					font-family: "ProximaNova";
+					font-family: "ProximaNova-Semibold";
 					display: inline-block;
 					color: #fff;
 					font-size: 14px;
@@ -1319,7 +1329,7 @@ a.link {
 						background-color: #4E4E55;
 					}
 					.b-item .inform .params ul li h5{
-						font-size: 14px;
+						font-size: 16px;
 						line-height: 16px;
 						font-weight: normal;
 						margin-top: 22px;
@@ -1531,22 +1541,32 @@ a.link {
 					margin-bottom: 18px;
 				}
 	.b-downloads .advanced{
-		margin-top: 38px;
+		margin-top: 18px;
 		position: relative;
-		display: inline-block;
+		display: block;
 	}
-		.b-downloads .advanced:after {
-			background-image: url("../i/advanced-arrow.png");
-			background-position: 50% 50%;
-			background-repeat: no-repeat;
-			position: absolute;
-			content: "s";
-			font-size: 0px;
-			width: 12px;
-			height: 8px;
-			top: 23px;
-			right: -31px;
-		}
+	.b-downloads .advanced .title{
+		font-size: 40px;
+		color: #000;
+		padding-left: 0;
+	}
+	.b-downloads .advanced .topic{
+		color: #4E4E55;
+	}
+	.b-downloads .advanced .acc-header {
+		background-image: url("../i/advanced-arrow.png");
+		background-position: -12px 50%;
+		background-repeat: no-repeat;
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		top: 49px !important;
+		left: 503px !important;
+	}
+	.b-downloads .advanced .acc-header-active {
+		background-position: 0% 50%;
+	}
+
 .b-content .b-block.faq {
 	padding-top: 54px;
 }
@@ -1580,7 +1600,7 @@ a.link {
 	text-align: left;
 	padding-bottom: 147px;
 }
-.acc-header {
+.faq .acc-header {
 	background-image: url("../i/acc-arrow.png");
 	background-position: -8px 50%;
 	background-repeat: no-repeat;
@@ -1590,7 +1610,7 @@ a.link {
 	top: 38px !important;
 	left: 0 !important;
 }
-.acc-header-active {
+.faq .acc-header-active {
 	background-position: 0% 50%;
 }
 	.b-faq .faq-text {
@@ -1648,7 +1668,7 @@ a.link {
 		min-width: 750px;
 	}
 
-	.b-main .b-block .more,.b-difference .b-slider,.b-difference .switch,.b-prismatic,.b-news,.b-quote,.b-twitter,.b-header .b-menu,.b-item .images, .item-links {
+	.b-main .more,.b-difference .b-slider,.b-difference .switch,.b-prismatic,.b-news,.b-quote,.b-twitter,.b-header .b-menu,.b-item .images, .item-links {
 			display: none;
 		}
 	.mobile {
@@ -1662,7 +1682,7 @@ a.link {
 }
 /*.desc {
 	color: #7A7C8D;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;    
 }	*/
@@ -2093,7 +2113,7 @@ a.link {
 						margin-left: 40px;
 					}
 					.b-item .inform .params ul li h5{
-						font-size: 14px;
+						font-size: 16px;
 						line-height: 16px;
 						margin-top: 27px;
 					}
@@ -2103,7 +2123,7 @@ a.link {
 						padding-top: 8px;
 					}
 						.b-item .inform .params ul li .first .rect h6{
-						    font-size: 14px;        
+						    font-size: 16px;        
 						    line-height: 4px;        
 						}
 						.b-item .inform .params ul li .first .rect span{
