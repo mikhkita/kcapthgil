@@ -65,7 +65,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</div>
 			</div>
 		</div>
-		<div class="b-block">
+		<div class="b-block main-content">
 			<h1>Get a new level of experience while protecting your eyes</h1>
 			<div class="play">
 				<a href="https://www.youtube.com/embed/RgKAFK5djSk?autoplay=1" class="fancy-img fancybox.iframe"><span></span></a>
