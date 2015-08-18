@@ -1659,7 +1659,9 @@ a.link {
 			.item-desc{
 				margin-top: 29px;
 			}
-
+.slide-main{
+	cursor: pointer;
+}
 
 
 
