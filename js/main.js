@@ -41,19 +41,21 @@ $(document).ready(function(){
                 $("body").removeClass("horizontal");
             }
         }
-        if(myWidth > 767 && myHeight > 767) {
+        if(myWidth > 767 && myHeight > 600) {
             if(myHeight < 900) {
+            	var top = 0.19*myHeight;
                 $(".b-main").height(myHeight);
+                $(".b-main .main-content").css("padding-top",top+"px");
             } else {
                 $(".b-main").height(900);
             }
             // var height = myHeight-123-116-90-15,
-            // top = 0.3014*height,
+            
             // bot = 0.1011*height,
             // top_margin = 0.0939*height,
             // bot_margin = 0.5036*height;
 
-            // $(".b-main .main-content").css("padding-top",top+"px").css("padding-bottom",bot+"px");
+            
             // $(".b-main .b-block .play").css("margin-top",top_margin+"px");
             // $(".b-main .b-block .more").css("margin-top",bot_margin+"px");
 
