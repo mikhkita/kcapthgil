@@ -282,6 +282,9 @@ a.link {
 	.b-white-butt:hover{
 		opacity: 0.6;
 	}
+	.b-white-butt:active{
+		opacity: 0.4;
+	}
 .b-blue-butt {
 	width: 190px;
 	padding: 16px 0 17px;
@@ -291,6 +294,9 @@ a.link {
 }
 	.b-blue-butt:hover{
 		background-color: #4B51D5;
+	}
+	.b-blue-butt:active{
+		background-color: #16237e;
 	}
 .b-download-butt {
 	padding: 10px 15px 9px 17px;
@@ -308,6 +314,9 @@ a.link {
 		background-color: #3137C1;
 		color: #fff;
 		border: 2px solid #3137C1;
+	}
+	.b-download-butt:active {
+		background-color: #16237e;
 	}
 		.b-download-butt:hover span {
 			color: #fff;
@@ -578,6 +587,9 @@ a.link {
 		}
 		.b-main .b-block .play a:hover {
 			opacity: 0.8;
+		}
+		.b-main .b-block .play a:active {
+			opacity: 0.6;
 		}
 			.b-main .b-block .play span{
 				background-image: url("../i/play.png");
